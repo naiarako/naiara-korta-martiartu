@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-description:  Postdoctoral Researcher at <a href="https://www.iap.unibe.ch/">Institute of Applied Physics</a> at University of Bern. Email: naiara(dot)korta(at)iap(dot)unibe(dot)ch
+description:  Postdoctoral Researcher at <a href="#">Institute of Applied Physics</a> at University of Bern. Email: naiara(dot)korta(at)iap(dot)unibe(dot)ch
 
 profile:
   align: right
-  image:  
+  image: prof_pic.jpg
   address: >
     <p>Sidlerstrasse 5</p>
     <p>CH-3012 Bern, Switzerland</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
