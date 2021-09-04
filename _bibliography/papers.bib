@@ -3,6 +3,38 @@
 
 @string{aps = {American Physical Society,}}
 
+@phdthesis{Hedgehog_thesis,
+	author  = "\textbf{Korta Martiartu, Naiara}",
+	title   = "Tomography across scales: Knowledge transfer from seismology to imaging breast tissue with ultrasound",
+	school  = "{Eidgen\"ossische Technische Hochschule}",
+	address = "{Z\"urich, Schweiz}",
+	year    = 2019,
+	month   = Oct,
+	doi = https://doi.org/10.3929/ethz-b-000416172,
+	pdf = {Thesis_NK19.pdf},
+	selected={True},
+	bibtex_show={true},
+	html = {https://www.research-collection.ethz.ch/handle/20.500.11850/416172},
+	abstract = {Wave propagation is extensively used to understand the internal structure of media that are not accessible to direct observations. Seismology and medical ultrasound imaging are good examples of this. The former uses observations of seismic waves at the Earth's surface to increase our knowledge about its interior. This is crucial, for instance, to improve our understanding about the Earth's dynamics and evolution. Medical ultrasound, on the other hand, uses observations of acoustic waves, emitted and recorded at the surface of human bodies, to visualize internal body structures. This has become an essential screening tool, useful for diagnostic examination.
+
+
+
+This thesis presents an interdisciplinary work between seismology and medical ultrasound. In particular, we focus on transferring knowledge from seismic tomography to Ultrasound Computer Tomography (USCT), an emerging technology that holds great potential for early-stage breast cancer diagnosis. Here, the human breast is surrounded by transducers that collect transmitted and reflected ultrasound signals. This information is then used to obtain 3D quantitative images of acoustic tissue properties, which enable non-invasive tissue characterization and improve the specificity of standard imaging modalities. Current challenges in USCT mostly consist in providing a diagnostic tool with high accuracy (comparable to magnetic resonance imaging) and affordable computational and acquisition cost for clinical practice, the target being a maximum time of 15 minutes per patient. Despite the vastly different scale, seismic and medical ultrasound tomography share fundamental similarities that allow us to address these challenges from the stand point of the seismologist.
+
+
+
+We first introduce finite-frequency traveltime tomography to medical ultrasound. In addition to being computationally tractable for 3D imaging at high frequencies, the method has two main advantages: (1) It correctly accounts for the frequency dependence and volumetric sensitivity of traveltime measurements, which are related to off-ray-path scattering and diffraction. (2) It naturally enables out-of-plane imaging and the construction of 3D images from 2D slice-by-slice acquisition systems. Our method rests on the availability of calibration data measured in water, used to linearize the forward problem and to provide analytical expressions of cross-correlation traveltime sensitivity. We present a memory-efficient implementation suitable for arbitrarily large-scale domains, and we discuss its extension to amplitude tomography.
+
+
+
+To adapt existing acquisition systems to new imaging techniques, we then introduce optimal experimental design methods. These provide a systematic and quantitative framework to (1) evaluate the quality of different designs in terms of uncertainties in the estimated tissue parameters and (2) optimize the configuration with respect to predefined design parameters, for example the position of transducers on the scanning device. Our first application presents a cost-effective 3D configuration of transducers optimized for transmission tomography. This is useful to analyze appropriate quality measures for USCT experiments and explore computationally tractable optimization approaches. The multi-modality capability of USCT, however, requires careful designs that simultaneously provide accurate images for both transmission (e.g., velocity) and reflection (reflectivity) information. We therefore extend the formulation to jointly optimize the experiment for transmission and reflection data. Here we focus on image reconstruction methods with linear(ized) observable-parameter relationship, for which quality measures are analytically given and independent of breast properties. This is crucial for optimizing USCT devices prior to any data acquisition.
+
+
+
+Methods investigated within this thesis are validated using experimental data. These contributions represent innovative solutions for USCT and ultimately serve to foster the knowledge and technology transfer between seismology and medical imaging, which may benefit imaging methods on all scales.}
+	
+}
+
 
 @ARTICLE{Korta2020,
 author={\textbf{Korta Martiartu, N.} and C. {Boehm} and A. {Fichtner}},
@@ -16,9 +48,12 @@ keywords={Ultrasound computed tomography (USCT);finite-frequency tomography;Born
 doi={10.1109/TUFFC.2020.2972327},
 ISSN={1525-8955},
 month={},
+abstract={Ultrasound computed tomography (USCT) has great potential for 3-D quantitative imaging of acoustic breast tissue properties. Typical devices include high-frequency transducers, which makes tomography techniques based on numerical wave propagation simulations computationally challenging, especially in 3-D. Therefore, despite the finite-frequency nature of ultrasonic waves, ray-theoretical approaches to transmission tomography are still widely used. This article introduces a finite-frequency traveltime tomography to medical ultrasound. In addition to being computationally tractable for 3-D imaging at high frequencies, the method has two main advantages: 1) it correctly accounts for the frequency dependence and volumetric sensitivity of traveltime measurements, which are related to off-ray-path scattering and diffraction. 2) It naturally enables out-of-plane imaging and the construction of 3-D images from 2-D slice-by-slice acquisition systems. Our method rests on the availability of calibration data in water, used to linearize the forward problem and to provide analytical expressions of cross correlation traveltime sensitivity. As a consequence of the finite-frequency content, sensitivity is distributed in multiple Fresnel volumes, thereby providing out-of-plane sensitivity. To improve computational efficiency, we develop a memory-efficient implementation by encoding the Jacobian operator with a 1-D parameterization, which allows us to extend the method to large-scale domains. We validate our tomographic approach using laboratory measurements collected with a 2-D setup of transducers and using a cylindrically symmetric phantom. We then demonstrate its applicability for 3-D reconstructions by simulating a slice-by-slice acquisition system using the same data set.},
 selected={True},
 bibtex_show={true},
 abbr={IEEE},
+html = {https://ieeexplore.ieee.org/abstract/document/8986678},
+pdf = {Manuscript_FF_IEEE.pdf}
 }
 
 
@@ -50,6 +85,27 @@ abbr={JASA},
 	bibtex_show={true},
 	abbr={QIMS},
 
+}
+
+@article{Korta_dispersion,
+author = {\textbf{Korta Martiartu, N.}  and Nambiar, Sherin and {Nascimento Kirchner}, Iara and Paverd, Catherine and Cester, Davide and Frauenfelder, Thomas and Ruby, Lisa and Rominger, Marga B.},
+title = {Sources of variability in shear-wave speed and dispersion quantification with ultrasound elastography: a phantom study},
+journal = {Ultrasound in Medicine \& Biology},
+note = {Accepted},
+year = {2021},
+bibtex_show={true},
+abbr={UMB},}
+
+@article{Korta_Martiartu2021_anisotropy,
+author = {\textbf{Korta Martiartu, N.} and Saul\.{e} Simut\.{e} and Thomas Frauenfelder and Marga B. Rominger},
+title = "{Ultrasound longitudinal-wave anisotropy estimation in muscle tissue}",
+year = "2021",
+month = "8",
+doi = "10.36227/techrxiv.15104529.v2",
+journal={IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control},
+note = {Under review},
+bibtex_show={true},
+abbr={IEEE},
 }
 
 @book{einstein1956investigations,
