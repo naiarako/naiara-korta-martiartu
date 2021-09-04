@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description:  Postdoctoral Researcher at <a href="#">Institute of Applied Physics</a> at University of Bern. Email: naiara(dot)korta(at)iap(dot)unibe(dot)ch
+description:  
 
 profile:
   align: right
