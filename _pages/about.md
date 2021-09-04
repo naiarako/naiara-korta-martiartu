@@ -6,12 +6,12 @@ description:  Postdoctoral Researcher at <a href="https://www.iap.unibe.ch/">Ins
 
 profile:
   align: right
-  image: naiara_profile.png
+  image:  
   address: >
     <p>Sidlerstrasse 5</p>
     <p>CH-3012 Bern, Switzerland</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
