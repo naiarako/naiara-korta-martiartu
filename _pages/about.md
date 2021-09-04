@@ -2,15 +2,14 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description:  Postdoctoral Researcher at <a href="https://www.iap.unibe.ch/">Institute of Applied Physics</a> at University of Bern. Email: naiara(dot)korta(at)iap(dot)unibe(dot)ch
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: naiara_profile.png
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Sidlerstrasse 5</p>
+    <p>CH-3012 Bern, Switzerland</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
