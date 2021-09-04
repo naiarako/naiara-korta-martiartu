@@ -2,21 +2,22 @@
 layout: about
 title: about
 permalink: /
-description: Postdoctoral Researcher at University of Bern
+description: Postdoctoral Researcher at University of Bern (she/her)
 
 profile:
   align: right
   image: naiara_profile.png
   address: >
     <p>Sidlerstrasse 5</p>
-    <p>CH-3012 Bern, Switzerland</p>
+    <p>CH-3012 Bern Switzerland</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a postdoctoral researcher in the Biomedical Photonics group at the [Institute of Applied Physics](https://www.iap.unibe.ch/), University of Bern. I am interested in the physics of ultrasound wave propagation for medical applications. I apply this knowledge to develop methods quantifying mechanical tissue properties, ultimately used to identify pathological tissues. So far, my work has focused on diagnosing lesions in the breast, liver, and muscles. 
+
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
