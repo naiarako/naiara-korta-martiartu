@@ -10,10 +10,14 @@
   - firstname: ["Hansruedi", "H."]
     url: https://erdw.ethz.ch/personen/profil.hansruedi-maurer.html
 
-"Simute": 
-  - firstname: ["S.", "Saule"]
+"Simut\.{e}": 
+  - firstname: ["S.", "Saul\.{e}"]
     url: https://www.researchgate.net/profile/Saule-Simute-2
 
 "Paverd":
   - firstname: ["C.", "Catherine"]
     url: https://scholar.google.com/citations?user=rRx3RWoAAAAJ&hl=en
+
+"Rominger":
+  - firstname: ["Marga B.", "M.B."]
+    url: https://scholar.google.com/citations?user=5iWCqHcAAAAJ&hl=de
