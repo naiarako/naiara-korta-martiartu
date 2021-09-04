@@ -95,7 +95,7 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
+    permalink: /education/:path/
   projects:
     output: true
     permalink: /projects/:path/
