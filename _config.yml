@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Naiara
 middle_name:
 last_name: Korta Martiartu
-email: naiara.korta@iap.unibe.ch
+email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal webpage for Naiara Korta Martiartu. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -53,10 +53,10 @@ gitlab_username:  # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: naiara-korta-martiartu # your LinkedIn user name
 scholar_userid: TDWeuiUAAAAJ # your Google Scholar ID
-orcid_id: 0000-0002-7970-7900 # your ORCID ID
+orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: AAX-1309-2020 # your ID on Publons
+publons_id: # your ID on Publons
 research_gate_profile: Naiara-Korta-Martiartu # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
