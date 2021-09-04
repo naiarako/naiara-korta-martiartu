@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Research
+permalink: /research/
+description: A summary of current and past research projects.
 nav: true
-display_categories: [work, fun]
+display_categories: [current, past]
 horizontal: false
 ---
 <div class="projects">
