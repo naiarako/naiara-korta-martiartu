@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description:  
+description: Postdoctoral Researcher
 
 profile:
   align: right
