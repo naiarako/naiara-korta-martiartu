@@ -1,18 +1,19 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Fichtner":
+  - firstname: ["A.", "Andreas"]
+    url: https://erdw.ethz.ch/en/people/profile.andreas-fichtner.html
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Boehm":
+  - firstname: ["C.", "Christian"]
+    url: https://cos.ethz.ch/people/person-detail.MjEwMDE0.TGlzdC8xMjgyLC0xMzkxMTI4OTM0.html
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Maurer":
+  - firstname: ["Hansruedi", "H."]
+    url: https://erdw.ethz.ch/personen/profil.hansruedi-maurer.html
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Simute": 
+  - firstname: ["S.", "Saule"]
+    url: https://www.researchgate.net/profile/Saule-Simute-2
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Paverd":
+  - firstname: ["C.", "Catherine"]
+    url: https://scholar.google.com/citations?user=rRx3RWoAAAAJ&hl=en
