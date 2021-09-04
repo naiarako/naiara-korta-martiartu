@@ -6,7 +6,7 @@ description: Postdoctoral Researcher at University of Bern
 
 profile:
   align: right
-  image: 
+  image: naiara_profile.png
   address: >
     <p>Sidlerstrasse 5</p>
     <p>CH-3012 Bern, Switzerland</p>
