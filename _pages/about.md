@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-description: Postdoctoral Researcher at University of Bern (she/her)
+description:>
+ Physicist at University of Bern (she/her)
+ Born in Gernika-Lumo (Basque Country)
 
 profile:
   align: right
