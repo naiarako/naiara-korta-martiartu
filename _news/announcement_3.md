@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2009-01-15 07:59:00-0400
+data2: 2004-01-01
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Bachelor in Physics, University of Basque Country
