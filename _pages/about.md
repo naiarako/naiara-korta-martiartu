@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Physicist at University of Bern (she/her).<br> Born in Gernika-Lumo, Basque Country.
+description: Physicist at University of Bern (she/her). Basque. Feminist. LGTBIQ+<br>
 
 
 profile:
@@ -12,7 +12,7 @@ profile:
     <p>Sidlerstrasse 5</p>
     <p>CH-3012 Bern Switzerland</p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
