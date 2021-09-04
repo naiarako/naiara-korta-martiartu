@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Postdoctoral Researcher at University of Bern. Email: naiara.korta@iap.unibe.ch
+description: Postdoctoral Researcher at University of Bern
 
 profile:
   align: right
