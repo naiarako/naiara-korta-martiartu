@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-description:  
+description: Postdoctoral Researcher at University of Bern. Email: naiara(dot)korta(at)iap(dot)unibe(dot)ch 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: naiara_profile.png
   address: >
     <p>Sidlerstrasse 5</p>
     <p>CH-3012 Bern, Switzerland</p>
