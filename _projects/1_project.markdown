@@ -4,7 +4,7 @@ title: FFtomo
 description: Finite-frequency tomography for USCT
 img: /assets/img/Sensitivity_kernel_1event.png
 importance: 1
-category: work
+category: past
 ---
 
 Every project has a beautiful feature showcase page.
