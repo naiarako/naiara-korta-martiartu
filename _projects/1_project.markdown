@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: USCT
+description: Ultrasound Computed Tomography
+img: /assets/img/Sensitivity_kernel_1event.png
 importance: 1
 category: work
 ---

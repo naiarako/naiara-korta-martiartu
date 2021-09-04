@@ -2,8 +2,8 @@
 layout: about
 title: about
 permalink: /
-description: Physicist at University of Bern (she/her)
-Born in Gernika-Lumo (Basque Country)
+description: Physicist at University of Bern (she/her). Born in Gernika-Lumo (Basque Country)
+
 
 profile:
   align: right
