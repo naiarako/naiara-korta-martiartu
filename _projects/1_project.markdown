@@ -1,7 +1,7 @@
 ---
 layout: page
-title: USCT
-description: Ultrasound Computed Tomography
+title: Finite frequencies
+description: Finite-frequency tomography method for Ultrasound Computed Tomography
 img: /assets/img/Sensitivity_kernel_1event.png
 importance: 1
 category: work
