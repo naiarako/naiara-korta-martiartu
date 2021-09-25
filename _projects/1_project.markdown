@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FFtomo
+title: Finite-frequency tomography
 description: Finite-frequency tomography for USCT
 img: /assets/img/Sensitivity_kernel_1event.png
 importance: 1
