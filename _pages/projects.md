@@ -5,7 +5,7 @@ permalink: /research/
 description: A summary of current and past research projects.
 nav: true
 display_categories: [current, past]
-horizontal: false
+horizontal: true
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
