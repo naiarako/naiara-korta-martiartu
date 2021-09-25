@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Finite-frequency tomography
-description: Finite-frequency tomography for USCT
+title: USCT
+description: Ultrasound Computed Tomography (USCT) for breast imaging
 img: /assets/img/Sensitivity_kernel_1event.png
 importance: 1
 category: past
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Ultrasound computed tomography (USCT) is an emerging technique to image acoustic tissue properties. USCT scanning systems were originally developed for early breast cancer detection. They consist of a water tank in which the patient submerges the breast. The sidewalls of the water tank are equipped with ultrasound transducers that emit and record ultrasonic waves propagating through the tissue. In this way, USCT is able to record both reflected and transmitted waves, which are essential to provide high-resolution quantitative images comparable to MRI. This is a significant improvement compared to traditional sonography techniques, where the gray-scale images are mainly qualitative. Quantitative images allow radiologists to discriminate between different tissue types and diagnose lesions more objectively.
+
+
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
