@@ -11,15 +11,14 @@ Ultrasound computed tomography (USCT) is an emerging technique to image acoustic
 
 My work on USCT has been focused on transferring knowledge from seismology to medical imaging in order to improve currect acquisition setups and tomographic algorithms. More details can be found in my [Ph.D. thesis](https://www.research-collection.ethz.ch/handle/20.500.11850/416172).
 
-<h4> Optimal experimental design </h4>
-
+<!--<h4> Optimal experimental design </h4>-->
 
 
 <h4> Finite-frequency tomography </h4>
 
 Typical devices include high-frequency transducers, which makes tomography techniques based on numerical wave propagation simulations computationally challenging, especially in 3D. Therefore, despite the finite-frequency nature of ultrasonic waves, ray-theoretical approaches to transmission tomography are still widely used. In this work, we have introduced finite-frequency traveltime tomography to medical ultrasound. In addition to being computationally tractable for 3D imaging at high frequencies, the method has two main advantages:
 
-(1) It correctly accounts for the frequency dependence and volumetric sensitivity of traveltime measurements, which are related to off-ray-path scattering and diffraction (see Figure XX). 
+(1) It correctly accounts for the frequency dependence and volumetric sensitivity of traveltime measurements, which are related to off-ray-path scattering and diffraction. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -34,7 +33,7 @@ Typical devices include high-frequency transducers, which makes tomography techn
 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/FFtomo_3Drec.png' | relative_url }}" alt="" title="3D reconstruction"/>
     </div>
 </div>
@@ -52,7 +51,7 @@ To improve computational efficiency, we develop a memory-efficient implementatio
     </div>
 </div>
 <div class="caption">
-Cross section of the 3D sensitivity kernel (a) with and (b) without considering geometrical spreading. (c) Sensitivity kernel in (b) represented as a function of distances indicated in (b) with dashed lines, together with the positions of the emitter x_s , receiver x_r, and an arbitrary spatial location x.
+Cross section of the 3D sensitivity kernel (a) with and (b) without including geometrical spreading. (c) Sensitivity kernel in (b) represented as a function of distances indicated in (b) with dashed lines between the positions of the emitter x<sub>s</sub>, receiver x<sub>r</sub>, and an arbitrary spatial location x.
 </div>
 
 
