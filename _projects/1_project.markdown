@@ -33,7 +33,7 @@ Typical devices include high-frequency transducers, which makes tomography techn
 
 
 <div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0 col-centered">
+    <div class="col-sm-8 col-centered">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/FFtomo_3Drec.png' | relative_url }}" alt="" title="3D reconstruction"/>
     </div>
 </div>
