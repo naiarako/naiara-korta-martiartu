@@ -51,7 +51,7 @@ To improve computational efficiency, we develop a memory-efficient implementatio
     </div>
 </div>
 <div class="caption">
-Cross section of the 3D sensitivity kernel (a) with and (b) without including geometrical spreading. (c) Sensitivity kernel in (b) represented as a function of distances indicated in (b) with dashed lines between the positions of the emitter x<sub>s</sub>, receiver x<sub>r</sub>, and an arbitrary spatial location x.
+Cross section of the 3D sensitivity kernel (a) with and (b) without including geometrical spreading. (c) Sensitivity kernel in (b) represented as a function of distances indicated in (b) with dashed lines between the positions of the emitter $\mathbf{x}_s$, receiver $\mathbf{x}_r$, and an arbitrary spatial location $\mathbf{x}$.
 </div>
 
 
