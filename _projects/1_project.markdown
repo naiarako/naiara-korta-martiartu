@@ -32,21 +32,21 @@ Typical devices include high-frequency transducers, which makes tomography techn
 (2) It naturally enables out-of-plane imaging and the construction of 3D images from 2D slice-by-slice acquisition systems.
 
 
-<div class="row">
-    <div class="col-sm-8 col-centered">
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/FFtomo_3Drec.png' | relative_url }}" alt="" title="3D reconstruction"/>
     </div>
 </div>
 <div class="caption">
-    3D velocity reconstruction using the dataset provided by the Spanish National Research Council (CSIC) and the Complutense University of Madrid (UCM) as part of the SPIE USCT Data Challenge 2017. We simulate a slice-by-slice acquisition, and we assume that the same data have been recorded at different elevationss. We show in each case the lateral view, the isolated view of the inclusions and the cross section at z = 0 mm. The red lines indicate the positions of the cross sections.
+    3D velocity reconstruction using the dataset provided by the Spanish National Research Council (CSIC) and the Complutense University of Madrid (UCM) as part of the SPIE USCT Data Challenge 2017. We simulate a slice-by-slice acquisition, and we assume that the same data have been recorded at different elevationss. We show in each case the lateral view, the isolated view of the inclusions and the cross section at z = 0 mm. The red line indicates the position of the cross section.
 </div>
 
 Finite-frequency tomography minimizes cross-correlation traveltime shifts between the observations and calibration data in water, being internally consistent with the standard procedure of traveltime estimations. Moreover, the availability of calibration data in water allows us to provide analytical expressions of cross-correlation traveltime sensitivity, which define our forward operator.
 To improve computational efficiency, we develop a memory-efficient implementation by encoding the Jacobian (forward) operator with a 1D parameterization. This parameterization is independent of the emitter-receiver geometry and allows us to efficiently extend the method to large-scale domains using massively parallelized operations on GPU architectures. 
 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/FFtomo_parameterization.png' | relative_url }}" alt="" title="Parameterization"/>
     </div>
 </div>
