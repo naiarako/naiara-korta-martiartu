@@ -18,8 +18,11 @@ My work on USCT has been focused on transferring knowledge from seismology to me
 <h4> Finite-frequency tomography </h4>
 
 Typical devices include high-frequency transducers, which makes tomography techniques based on numerical wave propagation simulations computationally challenging, especially in 3D. Therefore, despite the finite-frequency nature of ultrasonic waves, ray-theoretical approaches to transmission tomography are still widely used. In this work, we have introduced finite-frequency traveltime tomography to medical ultrasound. In addition to being computationally tractable for 3D imaging at high frequencies, the method has two main advantages:
+
 (1) It correctly accounts for the frequency dependence and volumetric sensitivity of traveltime measurements, which are related to off-ray-path scattering and diffraction (see Figure XX). 
+
 (2) It naturally enables out-of-plane imaging and the construction of 3D images from 2D slice-by-slice acquisition systems (see Figure XX).
+
 This method minimizes cross-correlation traveltime shifts between the observations and calibration data in water, being internally consistent with the standard procedure of traveltime estimations. Moreover, the availability of calibration data in water allows us to provide analytical expressions of cross-correlation traveltime sensitivity, which define our forward operator.
 
 
