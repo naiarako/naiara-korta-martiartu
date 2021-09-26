@@ -20,8 +20,8 @@ Typical devices include high-frequency transducers, which makes tomography techn
 
 (1) It correctly accounts for the frequency dependence and volumetric sensitivity of traveltime measurements, which are related to off-ray-path scattering and diffraction. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Sensitivity_kernel_1event.png' | relative_url }}" alt="" title="Sensitivity of finite-frequency traveltimes"/>
     </div>
 </div>
