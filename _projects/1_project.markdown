@@ -42,7 +42,7 @@ Typical devices include high-frequency transducers, which makes tomography techn
 </div>
 
 Finite-frequency tomography minimizes cross-correlation traveltime shifts between the observations and calibration data in water, being internally consistent with the standard procedure of traveltime estimations. Moreover, the availability of calibration data in water allows us to provide analytical expressions of cross-correlation traveltime sensitivity, which define our forward operator.
-To improve computational efficiency, we develop a memory-efficient implementation by encoding the Jacobian (forward) operator with a 1D parameterization. This parameterization is independent of the emitter-receiver geometry and allows us to efficiently extend the method to large-scale domains using massively parallelized operations on GPU architectures. Testing meth: $\int_0^\inf \partial x$
+To improve computational efficiency, we develop a memory-efficient implementation by encoding the Jacobian (forward) operator with a 1D parameterization. This parameterization is independent of the emitter-receiver geometry and allows us to efficiently extend the method to large-scale domains using massively parallelized operations on GPU architectures. 
 
 
 <div class="row justify-content-center">
@@ -54,5 +54,23 @@ To improve computational efficiency, we develop a memory-efficient implementatio
 Cross section of the 3D sensitivity kernel (a) with and (b) without including geometrical spreading. (c) Sensitivity kernel in (b) represented as a function of distances indicated in (b) with dashed lines between the positions of the emitter $\mathbf{x}_s$, receiver $\mathbf{x}_r$, and an arbitrary spatial location $\mathbf{x}$.
 </div>
 
+This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/){:target="\_blank"} engine. You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`. If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
 
+To use display mode, again surround your expression with `$$` and place it as a separate paragraph. Here is an example:
+
+$$
+\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2
+$$
+
+You can also use `\begin{equation}...\end{equation}` instead of `$$` for display mode math.
+MathJax will automatically number equations:
+
+\begin{equation}
+\label{eq:caushy-shwarz}
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\end{equation}
+
+and by adding `\label{...}` inside the equation environment, we can now refer to the equation using `\eqref`.
+
+Note that MathJax 3 is [a major re-write of MathJax](https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html){:target="\_blank"} that brought a significant improvement to the loading and rendering speed, which is now [on par with KaTeX](http://www.intmath.com/cg5/katex-mathjax-comparison.php){:target="\_blank"}.
 
