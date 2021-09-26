@@ -38,7 +38,7 @@ Typical devices include high-frequency transducers, which makes tomography techn
     </div>
 </div>
 <div class="caption">
-    3D velocity reconstruction using the dataset provided by the Spanish National Research Council (CSIC) and the Complutense University of Madrid (UCM) as part of the SPIE USCT Data Challenge 2017. We simulate a slice-by-slice acquisition, and we assume that the same data have been recorded at different elevationss. We show in each case the lateral view, the isolated view of the inclusions and the cross section at z = 0 mm. The red line indicates the position of the cross section.
+    3D velocity reconstruction using the dataset provided by the Spanish National Research Council (CSIC) and the Complutense University of Madrid (UCM) as part of the [SPIE USCT Data Challenge 2017](http://ipeusctdb1.ipe.kit.edu/~usct/challenge/?page_id=183). We simulate a slice-by-slice acquisition, and we assume that the same data have been recorded at different elevationss. We show in each case the lateral view, the isolated view of the inclusions and the cross section at z = 0 mm. The red line indicates the position of the cross section.
 </div>
 
 Finite-frequency tomography minimizes cross-correlation traveltime shifts between the observations and calibration data in water, being internally consistent with the standard procedure of traveltime estimations. Moreover, the availability of calibration data in water allows us to provide analytical expressions of cross-correlation traveltime sensitivity, which define our forward operator.
