@@ -7,7 +7,19 @@ importance: 1
 category: past
 ---
 
-Ultrasound computed tomography (USCT) is an emerging technique to image acoustic tissue properties. USCT scanning systems were originally developed for early breast cancer detection. They consist of a water tank in which the patient submerges the breast. The sidewalls of the water tank are equipped with ultrasound transducers that emit and record ultrasonic waves propagating through the tissue. In this way, USCT is able to record both reflected and transmitted waves, which are essential to provide high-resolution quantitative images comparable to MRI. This is a significant improvement compared to traditional sonography techniques, where the gray-scale images are mainly qualitative. Quantitative images allow radiologists to discriminate between different tissue types and diagnose lesions more objectively.
+Ultrasound computed tomography (USCT) is an emerging technique to image acoustic tissue properties. USCT scanning systems were originally developed for early breast cancer detection. They consist of a water tank in which the patient submerges the breast. The sidewalls of the water tank are equipped with ultrasound transducers that emit and record ultrasonic waves propagating through the tissue. 
+
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/imageUSCT.png' | relative_url }}" alt="" title="USCT device"/>
+    </div>
+</div>
+<div class="caption">
+Ultrasound wave propagation through breast tissue using a 3D USCT device. This numerical example uses one transducer as emitter.
+</div>
+
+
+USCT is able to record both reflected and transmitted waves, which are essential to provide high-resolution quantitative images comparable to MRI. This is a significant improvement compared to traditional sonography techniques, where the gray-scale images are mainly qualitative. Quantitative images allow radiologists to discriminate between different tissue types and diagnose lesions more objectively.
 
 My work on USCT has been focused on transferring knowledge from seismology to medical imaging in order to improve currect acquisition setups and tomographic algorithms. More details can be found in my [Ph.D. thesis](https://www.research-collection.ethz.ch/handle/20.500.11850/416172).
 
