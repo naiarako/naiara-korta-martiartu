@@ -2,7 +2,7 @@
 layout: page
 title: USCT
 description: Ultrasound Computed Tomography (USCT) for breast imaging
-img: /assets/img/Sensitivity_kernel_1event.png
+img: /assets/img/imageUSCT.png
 importance: 1
 category: past
 ---
