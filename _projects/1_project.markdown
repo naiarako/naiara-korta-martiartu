@@ -1,13 +1,13 @@
 ---
 layout: page
-title: USCT
+title: USCT - tomography
 description: Ultrasound Computed Tomography (USCT) for breast imaging
 img: /assets/img/imageUSCT.png
 importance: 1
 category: past
 ---
 
-Ultrasound computed tomography (USCT) is an emerging technique to image acoustic tissue properties. USCT scanning systems were originally developed for early breast cancer detection. They consist of a water tank in which the patient submerges the breast. The sidewalls of the water tank are equipped with ultrasound transducers that emit and record ultrasonic waves propagating through the tissue. 
+Ultrasound computed tomography (USCT) is an emerging technique to image acoustic tissue properties. Originally, USCT scanning systems were developed for early breast cancer detection. They consist of a water tank in which the patient submerges the breast. The sidewalls of the water tank are equipped with ultrasound transducers that emit and record ultrasonic waves propagating through the tissue. 
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
