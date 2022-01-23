@@ -19,4 +19,4 @@ social: false  # includes social icons at the bottom of the page
 
 I am a postdoctoral researcher in the Biomedical Photonics group at the [Institute of Applied Physics](https://www.iap.unibe.ch/), University of Bern. I am interested in understanding the physics of ultrasonic wave propagation phenomena for medical applications. I apply this knowledge to develop methods quantifying mechanical tissue properties, ultimately used to identify pathological tissues. So far, my work has focused on diagnosing lesions in the breast, liver, and muscles. 
 
-Email: naiara(dot)korta(at)iap(dot)unibe(dot)ch
+Email: naiara(dot)korta(at)unibe(dot)ch
