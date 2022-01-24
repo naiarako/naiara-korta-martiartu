@@ -7,6 +7,13 @@ importance: 1
 category: past
 ---
 
+There are mainly two class of USCT devices depending on the data coverage they provide: 
+
+(1) Two-dimensional (2D) devices arrange the transducers in a plane (e.g., in a ring-shape transducer holder) and produce a set of 2D breast images at different elevations. This arrangement is useful to reduce the dimension of the physical problem and speed-up the image reconstruction process. However, fast reconstructions neglect the three-dimensional nature of the wave propagation (e.g., out-of-plane scattering and diffraction), and final images are usually contaminated by artifacts. 
+
+(2) Three-dimensional (3D) devices arrange the transducers in a semispherical setup and are able to produce volumentric tissue images at the expense of higher acquisition and computational cost.  and ring-shape devices
+
+
 Ultrasound computed tomography (USCT) is an emerging technique to image acoustic tissue properties. Originally, USCT scanning systems were developed for early breast cancer detection. They consist of a water tank in which the patient submerges the breast. The sidewalls of the water tank are equipped with ultrasound transducers that emit and record ultrasonic waves propagating through the tissue. 
 
 <div class="row justify-content-center">
