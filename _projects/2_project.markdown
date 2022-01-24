@@ -9,20 +9,19 @@ category: past
 
 There are mainly two class of USCT devices depending on the data coverage they provide: 
 
-(1) Two-dimensional (2D) devices arrange the transducers in a plane (e.g., in a ring-shape transducer holder) and produce a set of 2D breast images at different elevations. This arrangement is useful to reduce the dimension of the physical problem and speed-up the image reconstruction process. However, fast reconstructions neglect the three-dimensional nature of the wave propagation (e.g., out-of-plane scattering and diffraction), and final images are usually contaminated by artifacts. 
+(1) Two-dimensional (2D) devices arrange the transducers in a plane (e.g., in a ring-shape transducer holder) and produce a set of 2D breast images at different elevations. This arrangement is useful to reduce the dimension of the physical problem and speed-up the image reconstruction process. It also enables the use of sophisticated tomographic methods (explicitly solving the wave equation) that otherwise would be computationally prohibitive to implement. However, fast reconstructions neglect the three-dimensional nature of the wave propagation (e.g., out-of-plane scattering) and thereby introduce artifacts in the final images. 
 
-(2) Three-dimensional (3D) devices arrange the transducers in a semispherical setup and are able to produce volumentric tissue images at the expense of higher acquisition and computational cost.  and ring-shape devices
+(2) Three-dimensional (3D) devices arrange transducers in a semispherical setup and are able to provide volumentric tissue images at the expense of a higher acquisition and computational cost. Currently, this cost does not allow the implementation of advanced tomographic methods and limits significantly the spatial resolution of final images. 
 
 
-Ultrasound computed tomography (USCT) is an emerging technique to image acoustic tissue properties. Originally, USCT scanning systems were developed for early breast cancer detection. They consist of a water tank in which the patient submerges the breast. The sidewalls of the water tank are equipped with ultrasound transducers that emit and record ultrasonic waves propagating through the tissue. 
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/imageUSCT.png' | relative_url }}" alt="" title="USCT device"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/2D&3DUSCT.png' | relative_url }}" alt="" title="USCT devices"/>
     </div>
 </div>
 <div class="caption">
-Ultrasound wave propagation through breast tissue using a 3D USCT device. This numerical example uses one transducer as emitter.
+Example of 2D (left) and 3D (right) ultrasound computer tomography devices. Image sources: [2D](https://journals.lww.com/investigativeradiology/Fulltext/2017/06000/Ultrasound_Tomography_Evaluation_of_Breast.4.aspx) and [3D](http://ipeusctdb1.ipe.kit.edu/~usct/challenge/?page_id=92) 
 </div>
 
 
