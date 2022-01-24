@@ -21,7 +21,7 @@ There are mainly two classes of USCT devices depending on the data coverage they
     </div>
 </div>
 <div class="caption">
-Example of 2D (left) and 3D (right) ultrasound computer tomography devices. Image sources: <p><a href = https://journals.lww.com/investigativeradiology/Fulltext/2017/06000/Ultrasound_Tomography_Evaluation_of_Breast.4.aspx>2D</a></p> and <p><a href=http://ipeusctdb1.ipe.kit.edu/~usct/challenge/?page_id=92>3D</a></p> 
+<p>Example of 2D (left) and 3D (right) ultrasound computer tomography devices. Image sources: <a href = https://journals.lww.com/investigativeradiology/Fulltext/2017/06000/Ultrasound_Tomography_Evaluation_of_Breast.4.aspx>2D</a> and <a href=http://ipeusctdb1.ipe.kit.edu/~usct/challenge/?page_id=92>3D</a></p> 
 </div>
 
 
