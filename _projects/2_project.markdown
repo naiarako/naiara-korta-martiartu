@@ -7,7 +7,7 @@ importance: 1
 category: past
 ---
 
-There are mainly two class of USCT devices depending on the data coverage they provide: 
+There are mainly two classes of USCT devices depending on the data coverage they provide: 
 
 (1) Two-dimensional (2D) devices arrange the transducers in a plane (e.g., in a ring-shape transducer holder) and produce a set of 2D breast images at different elevations. This arrangement is useful to reduce the dimension of the physical problem and speed-up the image reconstruction process. It also enables the use of sophisticated tomographic methods (explicitly solving the wave equation) that otherwise would be computationally prohibitive to implement. However, fast reconstructions neglect the three-dimensional nature of the wave propagation (e.g., out-of-plane scattering) and thereby introduce artifacts in the final images. 
 
@@ -21,7 +21,7 @@ There are mainly two class of USCT devices depending on the data coverage they p
     </div>
 </div>
 <div class="caption">
-Example of 2D (left) and 3D (right) ultrasound computer tomography devices. Image sources: [2D](https://journals.lww.com/investigativeradiology/Fulltext/2017/06000/Ultrasound_Tomography_Evaluation_of_Breast.4.aspx) and [3D](http://ipeusctdb1.ipe.kit.edu/~usct/challenge/?page_id=92) 
+Example of 2D (left) and 3D (right) ultrasound computer tomography devices. Image sources: <a href = https://journals.lww.com/investigativeradiology/Fulltext/2017/06000/Ultrasound_Tomography_Evaluation_of_Breast.4.aspx>2D</a> and <a href=http://ipeusctdb1.ipe.kit.edu/~usct/challenge/?page_id=92>3D</a> 
 </div>
 
 
