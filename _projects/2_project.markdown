@@ -93,7 +93,7 @@ Our goal is to decrease the data volume to reduce the time to solution. Here, th
     </div>
 </div>
 <div class="caption">
-(Left) The benefit-cost curve indicating that four emitters per rotation are sufficient for accurate reconstructions. (Right) Reconstructed images for reflectivity (top) and speed of sound (bottom) using optimally selected emitters and the original setup with all the emitters. We can observe that both setups provide same image quality, meaning that by including more than four emitters, we record ultrasound signals that provide redundant information about the medium. These results consider delay-and-sum approach to image tissue reflectivity and [finite-frequency tomography method](https://naiarako.github.io/projects/1_project/) for the speed of sound.
+(Left) The benefit-cost curve indicating that four emitters per rotation are sufficient for accurate reconstructions. (Right) Reconstructed images for reflectivity (top) and speed of sound (bottom) using optimally selected emitters and the original setup with all the emitters. We can observe that both setups provide same image quality, meaning that by including more than four emitters, we record ultrasound signals that provide redundant information about the medium. These results consider delay-and-sum approach to image tissue reflectivity and <a href = "https://naiarako.github.io/projects/1_project/" target="_blank">finite-frequency tomography method</a> for the speed of sound.
 
 </div>
 
