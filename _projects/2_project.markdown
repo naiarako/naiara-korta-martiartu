@@ -71,7 +71,7 @@ The determinant corresponds to the product of the eigenvalues of $$\Gamma_\text{
 To optimize the experimental setup in USCT, we use a sequential approach. We start from an experimental configuration that considers all candidate transducers active, and we deactivate them one by one in each iteration. This approach has the advantage of providing benefit-cost curves that illustrate the gain in the data information content with respect to the experimental cost:
 
 <div class="row justify-content-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CostBenefitCurve.png' | relative_url }}" alt="" title="CostBenefitCurve"/>
     </div>
 </div>
@@ -86,7 +86,7 @@ The benefit-cost curve is particularly useful maximize the benefit-cost ratio of
 Here we show few results to illustrate the benefit of optimally designing an experiment. We consider 
 
 <div class="row justify-content-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-9 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/OED_supplem.png' | relative_url }}" alt="" title="OED_example"/>
     </div>
 </div>
@@ -97,7 +97,7 @@ Reconstructed speed-of-sound distribution using two, three, and four emitters pe
 
 
 <div class="row justify-content-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Results_OED.png' | relative_url }}" alt="" title="Results_OED"/>
     </div>
 </div>
