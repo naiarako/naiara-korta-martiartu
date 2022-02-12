@@ -83,6 +83,19 @@ The benefit-cost curve is particularly useful maximize the benefit-cost ratio of
 
 <h6> Examples </h6>
 
+Here we show few results to illustrate the benefit of optimally designing an experiment. We consider 
+
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/OED_supplem.png' | relative_url }}" alt="" title="OED_example"/>
+    </div>
+</div>
+<div class="caption">
+Reconstructed speed-of-sound distribution using two, three, and four emitters per rotation, respectively. By including more emitters in the experiment, we add new information about tissue speed of sound, and the accuracy of the reconstruction improves.  
+</div>
+
+
+
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Results_OED.png' | relative_url }}" alt="" title="Results_OED"/>
