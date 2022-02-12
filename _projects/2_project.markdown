@@ -27,6 +27,8 @@ Example of 2D (left) and 3D (right) ultrasound computer tomography devices. Imag
 As we see, USCT designs and tomographic methods are interrelated. My work has focused on developing Optimal Experimental Design (OED) approaches to find the optimal configuration of transducers for commonly applied image reconstruction methods. We define the optimal setup as the configuration of transducers that reduces most uncertainties of reconstructed images post-acquisition. More details can be found in my [Ph.D. thesis](https://www.research-collection.ethz.ch/handle/20.500.11850/416172).
 
 <h4> Optimal experimental design </h4>
+<h6> Theoretical background </h6>
+
 
 The goal of USCT is to estimate the acoustic tissue parameters $$\mathbf{m}$$ from the observations of the ultrasound signals $$\mathbf{d}$$ that are recorded by an experimental setup $$\mathbf{s}$$.
 We can express the physical model relating our observations with unknown tissue properties as
@@ -50,6 +52,8 @@ For such linearized problems, we can compute the posterior covariance operator $
 
 Here, $$\Gamma_\text{noise}$$ and $$\Gamma_\text{prior}$$ are the covariance operator of measurements noise and our prior knowledge about tissue properties, respectively, which we assume to be Gaussian. $$\Gamma_\text{post}$$ shows useful properties to measure the quality of an experimental configuration. First, it depends on the parameters that define the experimental setup $$\mathbf{s}$$. This allows us to compare different candidates and select the ones that give the lowest uncertainties in the parameter estimation. Second, it neither depends on the observations nor the unknown model parameters, which means that it could be used to optimize the experiment before any realization. Last, it shows the same structure for any forward operator, under the condition that these are linear or can be linearized with respect to the model parameters. This allows us to present general formulations of the OED problem, independent of the tomographic method that is intended to be applied post-acquisition. 
 
+<h6> Optimal experimental design approach </h6>
+
 Assume that $$\Theta$$ is a scalar function that quantifies the level of expected uncertainties in the parameters by extracting some properties from $$\Gamma_\text{post}$$. Then, we can formulate the OED problem as a minimization problem
 
 \begin{equation}\label{eq:OED}
@@ -64,9 +68,10 @@ where $$\mathcal{S}$$ represents the space for all possible experimental configu
 
 The determinant corresponds to the product of the eigenvalues of $$\Gamma_\text{post}$$, and thus, we minimize the volume of the uncertainty ellipsoid in the estimated tissue parameters. From information theory, this quantity can be related to the expected information gain.
 
+To optimize the experimental setup in USCT, we use a sequential approach. We start from an experimental configuration that considers all candidate transducers active, and we deactivate them one by one in each iteration. This approach has the advantage of providing benefit-cost curves that illustrate the gain in the data information content with respect to the experimental cost:
 
 <div class="row justify-content-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CostBenefitCurve.png' | relative_url }}" alt="" title="CostBenefitCurve"/>
     </div>
 </div>
@@ -74,6 +79,9 @@ The determinant corresponds to the product of the eigenvalues of $$\Gamma_\text{
 Illustrative example of the benefit-cost curve obtained from sequential OED approach.
 </div>
 
+The benefit-cost curve is particularly useful maximize the benefit-cost ratio of the experiment by identifying redundancies in our observations.
+
+<h6> Examples </h6>
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
