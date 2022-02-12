@@ -33,9 +33,19 @@ We can express the physical model relating our observations with unknown tissue 
 $$\mathbf{F}$$ as
 
 \begin{equation}
-\mathbf{f} = \mathbf{F}(\mathbf{m};\mathbf{s}) + \epsilon,
+\mathbf{d} = \mathbf{F}(\mathbf{m};\mathbf{s}) + \epsilon,
 \end{equation}
-where $$\mathbf{F}$$ is the forward operator encoding our physical model, and $$\epsilon$$ accounts for measurement noise. In USCT, the nonlinearities of $$\mathbf{F}$$ with respect to $$\mathbf{m}$$ are not too severe, and we typically use linearized forward operators with respect to some prior knowledge about tissue $$\mathbf{s}_\text{prior}$$:
+where $$\mathbf{F}$$ is the forward operator encoding our physical model, and $$\epsilon$$ accounts for measurement noise. In USCT, the nonlinearities of $$\mathbf{F}$$ with respect to $$\mathbf{m}$$ are not too severe, and we typically use linearized forward operators with respect to some prior knowledge about tissue $$\mathbf{m}_\text{prior}$$:
+
 \begin{equation}
-\mathbf{F}(\mathbf{m};\mathbf{s}) \approx \mathbf{F}(\mathbf{m}_\text{prior};\mathbf{s}) +  \mathbf{F}'(\mathbf{m};\mathbf{s})\rvert_{\mathbf{m} = \mathbf{s}_\text{prior}}(\mathbf{m} - \mathbf{s}_\text{prior}), 
+\mathbf{F}(\mathbf{m};\mathbf{s}) \approx \mathbf{F}(\mathbf{m}_\text{prior};\mathbf{s}) +  \mathbf{F}'(\mathbf{m};\mathbf{s})\rvert_{\mathbf{m} = \mathbf{m}_\text{prior}}(\mathbf{m} - \mathbf{m}_\text{prior}), 
 \end{equation} 
+
+For such linearized problems, we can compute the posterior covariance operator $$\Gamma_\text{post}$$. This operator contains the uncertainties in tissue properties that we expect post-reconstruction and is expressed as
+
+\begin{equation}
+\Gamme_\text{post}(\mathbf{s}) = 
+\left( {\mathbf{F}'(\mathbf{s})}^{T} \Gamma_\text{noise}^{-1}\mathbf{F}'(\mathbf{s}) + \Gamma_\text{prior}^{-1}\right)^{-1}.
+\end{equation}
+
+
