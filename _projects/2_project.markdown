@@ -38,12 +38,8 @@ $$\mathbf{F}$$ as
 where $$\mathbf{F}$$ is the forward operator encoding our physical model, and $$\epsilon$$ accounts for measurement noise. In USCT, the nonlinearities of $$\mathbf{F}$$ with respect to $$\mathbf{m}$$ are not too severe, and we typically use linearized forward operators with respect to some prior knowledge about tissue $$\mathbf{m}_p$$:
 
 \begin{equation}
-\mathbf{F}(\mathbf{m};\mathbf{s}) \approx \mathbf{F}(\mathbf{m}_p};\mathbf{s}) +  \mathbf{F}'(\mathbf{m}_p};\mathbf{s})(\mathbf{m} - \mathbf{m}_p),
+\mathbf{F}(\mathbf{m};\mathbf{s}) \approx \mathbf{F}(\mathbf{m}_p;\mathbf{s}) +  \mathbf{F}'(\mathbf{m}_p;\mathbf{s})(\mathbf{m} - \mathbf{m}_p),
 \end{equation}
-
-\begin{equation}
-\mathbf{F}(\mathbf{m};\mathbf{s}) \approx \mathbf{F}(\mathbf{m}_\text{prior};\mathbf{s}) +  \mathbf{F}'(\mathbf{m};\mathbf{s})\rvert_{\mathbf{m} = \mathbf{m}_\text{prior}}(\mathbf{m} - \mathbf{m}_\text{prior}), 
-\end{equation} 
 
 For such linearized problems, we can compute the posterior covariance operator $$\Gamma_\text{post}$$. This operator contains the uncertainties in tissue properties that we expect post-reconstruction and is expressed as
 
@@ -68,3 +64,22 @@ where $$\mathcal{S}$$ represents the space for all possible experimental configu
 
 The determinant corresponds to the product of the eigenvalues of $$\Gamma_\text{post}$$, and thus, we minimize the volume of the uncertainty ellipsoid in the estimated tissue parameters. From information theory, this quantity can be related to the expected information gain.
 
+
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CostBenefitCurve.png' | relative_url }}" alt="" title="CostBenefitCurve"/>
+    </div>
+</div>
+<div class="caption">
+Illustrative example of the benefit-cost curve obtained from sequential OED approach.
+</div>
+
+
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Results_OED.png' | relative_url }}" alt="" title="Results_OED"/>
+    </div>
+</div>
+<div class="caption">
+Illustrative example of the benefit-cost curve obtained from sequential OED approach.
+</div>
