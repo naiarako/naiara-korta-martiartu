@@ -108,4 +108,6 @@ To understand the meaning of the benefit-cost curve, we show the speed-pf-sound 
 Reconstructed speed-of-sound distribution using two, three, and four emitters per rotation, respectively. By including more emitters in the experiment, we add new information about tissue speed of sound, and the accuracy of the reconstruction improves.  
 </div>
 
-For the experimental data used in this example, we could speed-up by four the acquisition and reconstruction time by optimally designing the experiment, without losing relevant information about the tissue. That is, in this example, 75% of the data is redundant. The benefit of an optimized USCT system, in terms of the image quality and computational resources, for clinical practice is tremendous. Once the acquisition system is optimized, the impact of the reduced cost in the recursive use of the scanning system may become very significant.
+For the experimental data used in this example, we could speed-up by four the acquisition and reconstruction time by optimally designing the experiment, without losing relevant information about the tissue. That is, in this example, 75% of the data is redundant!
+
+<strong>The benefit of an optimized USCT system, in terms of the image quality and computational resources, for clinical practice is tremendous. Once the acquisition system is optimized, the impact of the reduced cost in the recursive use of the scanning system may become very significant.</strong>
