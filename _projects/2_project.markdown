@@ -83,18 +83,9 @@ The benefit-cost curve is particularly useful maximize the benefit-cost ratio of
 
 <h5> Examples </h5>
 
-Here we show few results to illustrate the benefit of optimally designing an experiment. We consider 
+Here we show few results to illustrate the benefit of optimally designing an experiment. We consider the experimental data that was provided as part of the SPIE USCT Data Challenge 2017 by the Spanish National Research Council (CISC) and the Complutense University of Madrid (the data can be found [here](http://ipeusctdb1.ipe.kit.edu/~usct/challenge/?page_id=183)). The setup consists of two transducer arrays of 16 elements. The transducers in one array act as emitters whereas the ones in the other array are recording. The receiving array is always located opposite to the emitting array, and the whole the whole system is rotated into 23 different positions, describing a circle with radius 95 mm. Receivers record signals that travel through a tissue mimicking phantom based on water, gelatine, graphite powder, and alcohol. The phantom has a cylindrical homogeneous background with a diameter of 94 mm, two inclusions of 2 cm diameter (lower and higher speed of sound than the background), and two steel needles.
 
-<div class="row justify-content-center">
-    <div class="col-sm-9 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/OED_supplem.png' | relative_url }}" alt="" title="OED_example"/>
-    </div>
-</div>
-<div class="caption">
-Reconstructed speed-of-sound distribution using two, three, and four emitters per rotation, respectively. By including more emitters in the experiment, we add new information about tissue speed of sound, and the accuracy of the reconstruction improves.  
-</div>
-
-
+Our goal is to decrease the data volume to reduce the time to solution. Here, the number of measurements is mainly controlled by the total number of emitting elements in the transducer array. We therefore aim to select the most informative ones, removing those that provide redundant information about the phantom. After applying our OED algorithm, we obtain the following result for the reconstruction of phantom speed of sound and reflectivity:
 
 <div class="row justify-content-center">
     <div class="col-sm-12 mt-3 mt-md-0">
@@ -102,5 +93,19 @@ Reconstructed speed-of-sound distribution using two, three, and four emitters pe
     </div>
 </div>
 <div class="caption">
-Illustrative example of the benefit-cost curve obtained from sequential OED approach.
+(Left) The benefit-cost curve indicating that four emitters per rotation are sufficient for accurate reconstructions. (Right) Reconstructed images for reflectivity (top) and speed of sound (bottom) using optimally selected emitters and the original setup with all the emitters. We can observe that both setups provide same image quality, meaning that by including more than four emitters, we record ultrasound signals that provide redundant information about the medium. These results consider delay-and-sum approach to image tissue reflectivity and [finite-frequency tomography method](https://naiarako.github.io/projects/1_project/) for the speed of sound.
+
 </div>
+
+To understand the meaning of the benefit-cost curve, we show the speed-pf-sound reconstructions that we acquire for different number of emitters:
+
+<div class="row justify-content-center">
+    <div class="col-sm-11 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/OED_supplem.png' | relative_url }}" alt="" title="OED_example"/>
+    </div>
+</div>
+<div class="caption">
+Reconstructed speed-of-sound distribution using two, three, and four emitters per rotation, respectively. By including more emitters in the experiment, we add new information about tissue speed of sound, and the accuracy of the reconstruction improves.  
+</div>
+
+For the experimental data used in this example, we could speed-up by four the acquisition and reconstruction time by optimally designing the experiment, without losing relevant information about the tissue. That is, in this example, 75% of the data is redundant. The benefit of an optimized USCT system, in terms of the image quality and computational resources, for clinical practice is tremendous. Once the acquisition system is optimized, the impact of the reduced cost in the recursive use of the scanning system may become very significant.
