@@ -35,10 +35,10 @@ $$\mathbf{F}$$ as
 \begin{equation}
 \mathbf{d} = \mathbf{F}(\mathbf{m};\mathbf{s}) + \epsilon,
 \end{equation}
-where $$\mathbf{F}$$ is the forward operator encoding our physical model, and $$\epsilon$$ accounts for measurement noise. In USCT, the nonlinearities of $$\mathbf{F}$$ with respect to $$\mathbf{m}$$ are not too severe, and we typically use linearized forward operators with respect to some prior knowledge about tissue $$\mathbf{m}_\text{prior}$$:
+where $$\mathbf{F}$$ is the forward operator encoding our physical model, and $$\epsilon$$ accounts for measurement noise. In USCT, the nonlinearities of $$\mathbf{F}$$ with respect to $$\mathbf{m}$$ are not too severe, and we typically use linearized forward operators with respect to some prior knowledge about tissue $$\mathbf{m}_{\text{prior}}$$:
 
 \begin{equation}
-\mathbf{F}(\mathbf{m};\mathbf{s}) \approx \mathbf{F}(\mathbf{m}_\text{prior};\mathbf{s}) +  \mathbf{F}'(\mathbf{m}_\text{prior};\mathbf{s}),
+\mathbf{F}(\mathbf{m};\mathbf{s}) \approx \mathbf{F}(\mathbf{m}_{\text{prior}};\mathbf{s}) +  \mathbf{F}'(\mathbf{m}_{\text{prior}};\mathbf{s}),
 \end{equation}
 
 \begin{equation}
