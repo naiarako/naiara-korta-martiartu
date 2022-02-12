@@ -71,7 +71,7 @@ The determinant corresponds to the product of the eigenvalues of $$\Gamma_\text{
 To optimize the experimental setup in USCT, we use a sequential approach. We start from an experimental configuration that considers all candidate transducers active, and we deactivate them one by one in each iteration. This approach has the advantage of providing benefit-cost curves that illustrate the gain in the data information content with respect to the experimental cost:
 
 <div class="row justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/CostBenefitCurve.png' | relative_url }}" alt="" title="CostBenefitCurve"/>
     </div>
 </div>
