@@ -44,8 +44,23 @@ where $$\mathbf{F}$$ is the forward operator encoding our physical model, and $$
 For such linearized problems, we can compute the posterior covariance operator $$\Gamma_\text{post}$$. This operator contains the uncertainties in tissue properties that we expect post-reconstruction and is expressed as
 
 \begin{equation}
-\Gamme_\text{post}(\mathbf{s}) = 
+\Gamma_\text{post}(\mathbf{s}) = 
 \left( {\mathbf{F}'(\mathbf{s})}^{T} \Gamma_\text{noise}^{-1}\mathbf{F}'(\mathbf{s}) + \Gamma_\text{prior}^{-1}\right)^{-1}.
 \end{equation}
 
+Here, $$\Gamma_\text{noise}$$ and \Gamma_\text{prior} are the covariance operator of measurements noise and our prior knowledge about tissue properties, respectively, which we assume to be Gaussian. $$\Gamma_\text{post}$$ shows useful properties to measure the quality of an experimental configuration. First, it depends on the parameters that define the experimental setup $$\mathbf{s}$$. This allows us to compare different candidates and select the ones that give the lowest uncertainties in the parameter estimation. Second, it neither depends on the observations nor the unknown model parameters, which means that it could be used to optimize the experiment before any realization. Last, it shows the same structure for any forward operator, under the condition that these are linear or can be linearized with respect to the model parameters. This allows us to present general formulations of the OED problem, independent of the tomographic method that is intended to be applied post-acquisition. 
+
+Assume that $\Theta$ is a scalar function that quantifies the level of expected uncertainties in the parameters by extracting some properties from $$\Gamma_\text{post}$$. Then, we can formulate the OED problem as a minimization problem
+
+\begin{equation}\label{eq:OED}
+\min_{\s \in \mathcal{S}}  \Theta \left($$\Gamma_\text{post}$$\right),
+\end{equation}
+
+where $\mathcal{S}$ represents the space for all possible experimental configurations. In our work, we define $$\Theta$$ as the determinant of the posterior covariance matrix
+
+\begin{equation}\label{eq:D-optLog}
+\Theta = \log \det \left(\Gamma_\text{post} \ \right).
+\end{equation}
+
+The determinant corresponds to the product of the eigenvalues of $$\Gamma_\text{post}$$, and thus, we minimize the volume of the uncertainty ellipsoid in the estimated tissue parameters. From information theory, this quantity can be related to the expected information gain.
 
