@@ -28,3 +28,5 @@ As we see, USCT designs and tomographic methods are interrelated. My work has fo
 
 <h4> Optimal experimental design </h4>
 
+The goal of USCT is to estimate the acoustic tissue parameters $$\mathbf{m}$$ from the observations of the ultrasound signals $$\mathbf{d}_\text{obs}$$ that are recorded by an experimental setup $$\mathbf{s}$$.
+
