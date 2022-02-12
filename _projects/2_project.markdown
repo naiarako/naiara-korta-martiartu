@@ -29,10 +29,13 @@ As we see, USCT designs and tomographic methods are interrelated. My work has fo
 <h4> Optimal experimental design </h4>
 
 The goal of USCT is to estimate the acoustic tissue parameters $$\mathbf{m}$$ from the observations of the ultrasound signals $$\mathbf{d}$$ that are recorded by an experimental setup $$\mathbf{s}$$.
-We can express the physical model that relates our observations with unknown tissue properties as
-$\mathbf{F}$ as
+We can express the physical model relating our observations with unknown tissue properties as
+$$\mathbf{F}$$ as
 
 \begin{equation}
-\mathbf{f} = \F(\mathbf{m};\mathbf{s}) + \bm{\epsilon},
+\mathbf{f} = \mathbf{F}(\mathbf{m};\mathbf{s}) + \epsilon,
 \end{equation}
-where the vector $\bm{\epsilon}$ accounts for measurement noise.
+where $$\mathbf{F}$$ is the forward operator encoding our physical model, and $$\epsilon$$ accounts for measurement noise. In USCT, the nonlinearities of $$\mathbf{F}$$ with respect to $$\mathbf{m}$$ are not too severe, and we typically use linearized forward operators with respect to some prior knowledge about tissue $$\mathbf{s}_\text{prior}$$:
+\begin{equation}
+\mathbf{F}(\mathbf{m};\mathbf{s}) \approx \mathbf{F}(\mathbf{m}_\text{prior};\mathbf{s}) +  \mathbf{F}'(\mathbf{m};\mathbf{s})\rvert_{\mathbf{m} = \mathbf{s}_\text{prior}}(\mathbf{m} - \mathbf{s}_\text{prior}), 
+\end{equation} 
