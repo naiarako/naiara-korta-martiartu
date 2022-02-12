@@ -27,7 +27,7 @@ Example of 2D (left) and 3D (right) ultrasound computer tomography devices. Imag
 As we see, USCT designs and tomographic methods are interrelated. My work has focused on developing Optimal Experimental Design (OED) approaches to find the optimal configuration of transducers for commonly applied image reconstruction methods. We define the optimal setup as the configuration of transducers that reduces most uncertainties of reconstructed images post-acquisition. More details can be found in my [Ph.D. thesis](https://www.research-collection.ethz.ch/handle/20.500.11850/416172).
 
 <h4> Optimal experimental design </h4>
-<h6> Theoretical background </h6>
+<h5> Theoretical background </h5>
 
 
 The goal of USCT is to estimate the acoustic tissue parameters $$\mathbf{m}$$ from the observations of the ultrasound signals $$\mathbf{d}$$ that are recorded by an experimental setup $$\mathbf{s}$$.
@@ -52,7 +52,7 @@ For such linearized problems, we can compute the posterior covariance operator $
 
 Here, $$\Gamma_\text{noise}$$ and $$\Gamma_\text{prior}$$ are the covariance operator of measurements noise and our prior knowledge about tissue properties, respectively, which we assume to be Gaussian. $$\Gamma_\text{post}$$ shows useful properties to measure the quality of an experimental configuration. First, it depends on the parameters that define the experimental setup $$\mathbf{s}$$. This allows us to compare different candidates and select the ones that give the lowest uncertainties in the parameter estimation. Second, it neither depends on the observations nor the unknown model parameters, which means that it could be used to optimize the experiment before any realization. Last, it shows the same structure for any forward operator, under the condition that these are linear or can be linearized with respect to the model parameters. This allows us to present general formulations of the OED problem, independent of the tomographic method that is intended to be applied post-acquisition. 
 
-<h6> Optimal experimental design approach </h6>
+<h5> Optimal experimental design approach </h5>
 
 Assume that $$\Theta$$ is a scalar function that quantifies the level of expected uncertainties in the parameters by extracting some properties from $$\Gamma_\text{post}$$. Then, we can formulate the OED problem as a minimization problem
 
@@ -81,7 +81,7 @@ Illustrative example of the benefit-cost curve obtained from sequential OED appr
 
 The benefit-cost curve is particularly useful maximize the benefit-cost ratio of the experiment by identifying redundancies in our observations.
 
-<h6> Examples </h6>
+<h5> Examples </h5>
 
 Here we show few results to illustrate the benefit of optimally designing an experiment. We consider 
 
