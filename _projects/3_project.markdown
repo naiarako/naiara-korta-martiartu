@@ -68,7 +68,7 @@ Unfortunately, this forward problem does not relate traveltimes and muscle prope
     </div>
 </div>
 <div class="caption">
-Muscle models providing equal traveltimes. All these models are equivalent to the reference model $$\hat{\mathbf{m}}~=~(1560~\text{m/s},1540~\text{m/s},0^{\circ})$$. Thus, traveltimes defined in \eqref{eq:ttt_total} cannot uniquely constrain muscle anisotropy.  
+Muscle models providing equal traveltimes. All these models are equivalent to the reference model \(\hat{\mathbf{m}}~=~(1560~\text{m/s},1540~\text{m/s},0^{\circ})\). Thus, traveltimes defined in \eqref{eq:ttt_total} cannot uniquely constrain muscle anisotropy.  
 </div>
 
 To constrain the anisotropy, we suggest taking advantage of the reflector inclination, which will generate ray paths with orientations that are different from our previous setup. We show that by combining data from multiple inclination angles we can constrain muscle anisotropy.
@@ -98,6 +98,6 @@ where $$d_{\text{S}}$$ denotes the distance between the first element of the pro
     </div>
 </div>
 <div class="caption">
-Equivalent muscle models in terms of traveltimes for relfector inclination angles $$\alpha=0^\circ, 10^\circ$$, and $$20^\circ$$. For all $\alpha$, the reference model is $$\hat{\mathbf{m}}~=~(1560~\text{m/s},1540~\text{m/s},0^{\circ})$$. We observe that the curves intersect in a single point, thereby demonstrating that the combination of traveltimes from different reflector inclinations can contrain muscle anisotropy uniquely.
+Equivalent muscle models in terms of traveltimes for relfector inclination angles \(\alpha=0^\circ, 10^\circ\), and \(20^\circ\). For all $\alpha$, the reference model is \(\hat{\mathbf{m}}~=~(1560~\text{m/s},1540~\text{m/s},0^{\circ})\). We observe that the curves intersect in a single point, thereby demonstrating that the combination of traveltimes from different reflector inclinations can contrain muscle anisotropy uniquely.
 </div>
 
