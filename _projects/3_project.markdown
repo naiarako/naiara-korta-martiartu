@@ -46,4 +46,20 @@ x_{1,\text{R}}}{2} + \frac{L\sin2\varphi(v_2^2 - v_1^2)}{2(v_1^2 \sin^2\varphi
 + v_2^2 \cos^2\varphi)}, L \right),
 \end{equation}
 
-where $$x_1$$ indicated the first component of $$\mathbf{x}$$.
+where $$x_1$$ indicates the first component of $$\mathbf{x}$$. We can make interesting observation from this equation: 
+
+(1) The reflection point is located at the source-receiver midpoint only when the medium is isotropic ($$v_1=v_2$$) or the anisotropy symmetry axis is aligned with our coordinate system ($$\varphi = 0$$).
+
+(2) The path with the minimum traveltime satisfies $$t_\text{SP} \left(\mathbf{x}_\text{P}^{\text{min}}\right)= t_\text{RP}\left(\mathbf{x}_\text{P}^{\text{min}}\right)$$. Therefore, the fastest ray path is the path with equal traveltime along each segment.
+
+(3) The mirror image of the receiver, namely a virtual equivalent receiver $$\tilde{R}$$ below the reflector, is located at $$\mathbf{x}_{\tilde{\text{R}}} = 2\mathbf{x}_\text{P}^{\text{min}}$$.
+
+Upon inserting the expression for $$\mathbf{x}_\text{P}$$ in the calculation of the the first-arrival reflection traveltime between $$\mathbf{x}_\text{S}$$ and $$\mathbf{x}_\text{R}$$, we obtain
+
+\begin{equation}
+\label{eq:ttt_total}
+t_\text{SR}^2 \left(\mathbf{x}_\text{P}^{\text{min}}\right) =
+\frac{d^2}{v^2(\theta = \pi/2)} + \frac{4L^2
+v^2(\theta = \pi/2)}{v_1^2 v_2^2},
+\end{equation}
+with $$v^2(\theta = \pi/2)$$ being the velocity in direction $$\pi/2$$ and $$d = x_{1,\text{R}} - x_{1,\text{S}}$$ being the source-receiver offset. 
