@@ -70,3 +70,24 @@ Unfortunately, this forward problem does not relate traveltimes and muscle prope
 <div class="caption">
 Reconstructed speed-of-sound distribution using two, three, and four emitters per rotation, respectively. By including more emitters in the experiment, we add new information about tissue speed of sound, and the accuracy of the reconstruction improves.
 </div>
+
+To constrain the anisotropy, we suggest taking advantage of the reflector inclination, which will generate ray paths with orientations that are different from our previous setup. We show that by combining data from multiple inclination angles we can constrain muscle anisotropy.
+
+Following a similar approach as before, we find the following expression for first-arrival traveltimes when the reflector is inclined by $$\alpha$$ with respect to $$x_1$$-axis:
+
+\begin{equation}
+\label{eq:ttt_total_inclination}
+t_\text{SR}^2 =
+\frac{d^2}{v^2(\pi/2)} + \frac{4L'(L' +
+d\sin\alpha)}{v_1^2
+\sin^2(\varphi + \alpha) + v_2^2 \cos^2(\varphi+\alpha)},
+\end{equation}
+
+with
+
+\begin{equation}
+\label{eq:Ldistance}
+L' = L\cos\alpha + d_\text{S}\sin\alpha,
+\end{equation} 
+
+where $$d_{\text{S}}$$ denotes the distance between the first element of the probe and $$\mathbf{x}_\text{S}$$, and $$d$$ is the distance between $$\mathbf{x}_\text{S}$$ and $$\mathbf{x}_\text{R}$$. This equation is the generalization of \eqref{eq:ttt_total}, which we obtain when $$\alpha = 0$$.
