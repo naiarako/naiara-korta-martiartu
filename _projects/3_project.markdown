@@ -39,7 +39,7 @@ For an experimental setup that includes a reflector located at distance $$L$$ fr
 
 \begin{equation}
 \label{eq:reflect_point}
-\mathbf{x}_\text{P}^\text{min} = \left(\frac{x_1^S + x_1^R}{2} + \frac{L\sin2\varphi(v_2^2 - v_1^2)}{2(v_1^2 \sin^2\varphi + v_2^2 \cos^2\varphi)}, L \right),
+\mathbf{x}_\text{P} = \left(\frac{x_1^S + x_1^R}{2} + \frac{L\sin2\varphi(v_2^2 - v_1^2)}{2(v_1^2 \sin^2\varphi + v_2^2 \cos^2\varphi)}, L \right),
 \end{equation}
 
 where $$x_1$$ indicates the first component of $$\mathbf{x}$$. We can make interesting observations from this equation: 
@@ -50,7 +50,7 @@ where $$x_1$$ indicates the first component of $$\mathbf{x}$$. We can make inter
 
 (3) The mirror image of the receiver, namely a virtual equivalent receiver $$\tilde{R}$$ below the reflector, is located at $$\mathbf{x}_{\tilde{\text{R}}} = 2\mathbf{x}_\text{P}$$.
 
-Upon combining \eqre{eq:reflect_point} and \eqref{eq:traveltime}, the first-arrival reflection traveltime between $$\mathbf{x}_\text{S}$$ and $$\mathbf{x}_\text{R}$$, we obtain
+Upon combining \eqref{eq:reflect_point} and \eqref{eq:traveltime}, the first-arrival reflection traveltime between $$\mathbf{x}_\text{S}$$ and $$\mathbf{x}_\text{R}$$, we obtain
 
 \begin{equation}
 \label{eq:ttt_total}
@@ -60,4 +60,13 @@ v^2(\theta = \pi/2)}{v_1^2 v_2^2},
 \end{equation}
 with $$v^2(\theta = \pi/2)$$ is given by \eqref{eq:Ellipse} and $$d = x_{1,\text{R}} - x_{1,\text{S}}$$ being the source-receiver offset. This equation is our forward problem relating the observations $$t_\text{SR}$$ and unknown muscle properties $$\mathbf{m} = (v_1,v_2,\varphi)$$. Thus, the forward problem considered in this study is nonlinear unless the anisotropy symmetry axis is aligned with the coordinate system ($$\varphi = 0$$). In this case, $$t_\text{SR}^2$$ becomes linearly related to squared slownesses $$1/v_1^2$$ and $$1/v_2^2$$. 
 
-Unfortunately, this forward problem does not related traveltimes and muscle properties uniquely.
+Unfortunately, this forward problem does not relate traveltimes and muscle properties uniquely. It means that different muscle properties can predict same traveltime observations:
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Non-uniqueness_1560_1540.pdf' | relative_url }}" alt="" title="Non-uniqueness"/>
+    </div>
+</div>
+<div class="caption">
+Reconstructed speed-of-sound distribution using two, three, and four emitters per rotation, respectively. By including more emitters in the experiment, we add new information about tissue speed of sound, and the accuracy of the reconstruction improves.
+</div>
