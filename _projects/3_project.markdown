@@ -31,6 +31,10 @@ In a medium with elliptical anisotropy, the velocity in any arbitrary location $
 where the variables are described in the figure above. Using trigonometric identities, we find that the traveltime $$t_\text{AB}$$ between positions $$\mathbf{x}_\text{A}$$ and $$\mathbf{x}_\text{B}$$ is given by
 
 \begin{equation}
+t^2_\text{AB}.
+\end{equation}
+
+\begin{equation}
 t^2_\text{AB} =
 \frac{1}{v^2_1}\left[(x_{1,\text{B}}-x_{1,\text{A}})\cos{\varphi} -
 (x_{2,\text{B}}-x_{2,\text{A}})\sin{\varphi} \right]^2+ \frac{1}{v^2_2}\left[(x_{1,\text{B}}-x_{1,\text{A}})\sin{\varphi} +
