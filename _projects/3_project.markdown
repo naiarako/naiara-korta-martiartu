@@ -62,4 +62,6 @@ t_\text{SR}^2 =
 \frac{d^2}{v^2(\theta = \pi/2)} + \frac{4L^2
 v^2(\theta = \pi/2)}{v_1^2 v_2^2},
 \end{equation}
-with $$v^2(\theta = \pi/2)$$ being the velocity in direction $$\pi/2$$ and $$d = x_{1,\text{R}} - x_{1,\text{S}}$$ being the source-receiver offset. 
+with $$v^2(\theta = \pi/2)$$ being the velocity in direction $$\pi/2$$ and $$d = x_{1,\text{R}} - x_{1,\text{S}}$$ being the source-receiver offset. This equation is our forward problem relating the observations $$t_\text{SR}$$ and unknown muscle properties $$\mathbf{m} = (v_1,v_2,\varphi)$$. Thus, the forward problem considered in this study is nonlinear unless the anisotropy symmetry axis is aligned with the coordinate system ($\varphi = 0$). In this case, $$t_\text{SR}^2$$ becomes linearly related to squared slownesses $$1/v_1^2$$ and $$1/v_2^2$$. 
+
+Unfortunately, this forward problem does not related traveltimes and muscle properties uniquely.
