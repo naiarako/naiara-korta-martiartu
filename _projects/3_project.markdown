@@ -64,7 +64,7 @@ Unfortunately, this forward problem does not relate traveltimes and muscle prope
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Non-uniqueness_1560_1540.pdf' | relative_url }}" alt="" title="Non-uniqueness"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Non-uniqueness_1560_1540.png' | relative_url }}" alt="" title="Non-uniqueness"/>
     </div>
 </div>
 <div class="caption">
