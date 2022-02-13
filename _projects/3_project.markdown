@@ -35,10 +35,7 @@ t^2_\text{AB} = \frac{1}{v^2_1}.
 \end{equation}
 
 \begin{equation}
-t^2_\text{AB} =
-\frac{1}{v^2_1}\left[(x_{1,\text{B}}-x_{1,\text{A}})\cos{\varphi} -
-(x_{2,\text{B}}-x_{2,\text{A}})\sin{\varphi} \right]^2+ \frac{1}{v^2_2}\left[(x_{1,\text{B}}-x_{1,\text{A}})\sin{\varphi} +
-(x_{2,\text{B}}-x_{2,\text{A}})\cos{\varphi}\right]^2.
+t^2_\text{AB} = \frac{1}{v^2_1}\left[(x_{1,\text{B}}-x_{1,\text{A}})\cos{\varphi} - (x_{2,\text{B}}-x_{2,\text{A}})\sin{\varphi} \right]^2+ \frac{1}{v^2_2}\left[(x_{1,\text{B}}-x_{1,\text{A}})\sin{\varphi} + (x_{2,\text{B}}-x_{2,\text{A}})\cos{\varphi}\right]^2.
 \end{equation}
 
 For an experimental setup that includes a reflector located at distance $$L$$ from the probe, we can measure the first-arrival reflection traveltimes and use them to retrieve muscle anisotropy. Using Fermat's principle, we can find that, in this anisotropic medium, the reflection point will be shifted from the mid-point between the source $$\mathbf{x}_\text{S}$$ and receiver $$\mathbf{x}_\text{R}$$. This shift is a constant value, independent of the source and receiver location. The reflection point $$\mathbf{x}_\text{P}$$ is 
@@ -46,8 +43,7 @@ For an experimental setup that includes a reflector located at distance $$L$$ fr
 \begin{equation}
 \label{eq:reflect_point}
 \mathbf{x}_{\text{P}}^{\text{min}} = \left(\frac{x_{1,\text{S}} +
-x_{1,\text{R}}}{2} + \frac{L\sin2\varphi(v_2^2 - v_1^2)}{2(v_1^2 \sin^2\varphi
-+ v_2^2 \cos^2\varphi)}, L \right),
+x_{1,\text{R}}}{2} + \frac{L\sin2\varphi(v_2^2 - v_1^2)}{2(v_1^2 \sin^2\varphi + v_2^2 \cos^2\varphi)}, L \right),
 \end{equation}
 
 where $$x_1$$ indicates the first component of $$\mathbf{x}$$. We can make interesting observation from this equation: 
