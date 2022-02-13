@@ -58,7 +58,7 @@ t_\text{SR}^2 =
 \frac{d^2}{v^2(\theta = \pi/2)} + \frac{4L^2
 v^2(\theta = \pi/2)}{v_1^2 v_2^2},
 \end{equation}
-with $$v^2(\theta = \pi/2)$$ is given by \eqref{eq:Ellipse} and $$d = x_{1,\text{R}} - x_{1,\text{S}}$$ being the source-receiver offset. This equation is our forward problem relating the observations $$t_\text{SR}$$ and unknown muscle properties $$\mathbf{m} = (v_1,v_2,\varphi)$$. Thus, the forward problem considered in this study is nonlinear unless the anisotropy symmetry axis is aligned with the coordinate system ($$\varphi = 0$$). In this case, $$t_\text{SR}^2$$ becomes linearly related to squared slownesses $$1/v_1^2$$ and $$1/v_2^2$$. 
+with $$v^2(\theta = \pi/2)$$ given by \eqref{eq:Ellipse} and $$d = x_{1,\text{R}} - x_{1,\text{S}}$$ being the source-receiver offset. This equation is our forward problem relating the observations $$t_\text{SR}$$ and unknown muscle properties $$\mathbf{m} = (v_1,v_2,\varphi)$$. Thus, the forward problem considered in this study is nonlinear unless the anisotropy symmetry axis is aligned with the coordinate system ($$\varphi = 0$$). In this case, $$t_\text{SR}^2$$ becomes linearly related to squared slownesses $$1/v_1^2$$ and $$1/v_2^2$$. 
 
 Unfortunately, this forward problem does not relate traveltimes and muscle properties uniquely. It means that different muscle properties can predict same traveltime observations:
 
@@ -68,7 +68,7 @@ Unfortunately, this forward problem does not relate traveltimes and muscle prope
     </div>
 </div>
 <div class="caption">
-Reconstructed speed-of-sound distribution using two, three, and four emitters per rotation, respectively. By including more emitters in the experiment, we add new information about tissue speed of sound, and the accuracy of the reconstruction improves.
+Muscle models providing equal traveltimes. All these models are equivalent to the reference model $$\hat{\mathbf{m}}~=~(1560~\text{m/s},1540~\text{m/s},0^{\circ})$$. Thus, traveltimes defined in \eqref{eq:ttt_total} cannot uniquely constrain muscle anisotropy.  
 </div>
 
 To constrain the anisotropy, we suggest taking advantage of the reflector inclination, which will generate ray paths with orientations that are different from our previous setup. We show that by combining data from multiple inclination angles we can constrain muscle anisotropy.
@@ -91,3 +91,13 @@ L' = L\cos\alpha + d_\text{S}\sin\alpha,
 \end{equation} 
 
 where $$d_{\text{S}}$$ denotes the distance between the first element of the probe and $$\mathbf{x}_\text{S}$$, and $$d$$ is the distance between $$\mathbf{x}_\text{S}$$ and $$\mathbf{x}_\text{R}$$. This equation is the generalization of \eqref{eq:ttt_total}, which we obtain when $$\alpha = 0$$.
+
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Non-uniqueness_1560_1540_inclination.png' | relative_url }}" alt="" title="Non-uniqueness"/>
+    </div>
+</div>
+<div class="caption">
+Equivalent muscle models in terms of traveltimes for relfector inclination angles $$\alpha=0^\circ, 10^\circ$$, and $$20^\circ$$. For all $\alpha$, the reference model is $$\hat{\mathbf{m}}~=~(1560~\text{m/s},1540~\text{m/s},0^{\circ})$$. We observe that the curves intersect in a single point, thereby demonstrating that the combination of traveltimes from different reflector inclinations can contrain muscle anisotropy uniquely.
+</div>
+
