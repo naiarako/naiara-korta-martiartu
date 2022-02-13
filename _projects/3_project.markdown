@@ -31,22 +31,18 @@ In a medium with elliptical anisotropy, the velocity in any arbitrary location $
 where the variables are described in the figure above. Using trigonometric identities, we find that the traveltime $$t_\text{AB}$$ between positions $$\mathbf{x}_\text{A}$$ and $$\mathbf{x}_\text{B}$$ is given by
 
 \begin{equation}
-t^2_\text{AB} = \frac{1}{v^2_1}\left[x_1^B\cos{\varphi} - \sin{\varphi} \right]^2.
-\end{equation}
-
-\begin{equation}
-t^2_\text{AB} = \frac{1}{v^2_1}\left[(x_{1,\text{B}}-x_{1,\text{A}})\cos{\varphi} - (x_{2,\text{B}}-x_{2,\text{A}})\sin{\varphi} \right]^2+ \frac{1}{v^2_2}\left[(x_{1,\text{B}}-x_{1,\text{A}})\sin{\varphi} + (x_{2,\text{B}}-x_{2,\text{A}})\cos{\varphi}\right]^2.
+\label{eq:traveltime}
+t^2_\text{AB} = \frac{1}{v^2_1}\left[(x_1^B-x_1^A)\cos{\varphi} - (x_2^B-x_2^A)\sin{\varphi} \right]^2+ \frac{1}{v^2_2}\left[(x_1^B-x_1^A)\sin{\varphi} + (x_2^B-x_2^A)\cos{\varphi}\right]^2.
 \end{equation}
 
 For an experimental setup that includes a reflector located at distance $$L$$ from the probe, we can measure the first-arrival reflection traveltimes and use them to retrieve muscle anisotropy. Using Fermat's principle, we can find that, in this anisotropic medium, the reflection point will be shifted from the mid-point between the source $$\mathbf{x}_\text{S}$$ and receiver $$\mathbf{x}_\text{R}$$. This shift is a constant value, independent of the source and receiver location. The reflection point $$\mathbf{x}_\text{P}$$ is 
 
 \begin{equation}
 \label{eq:reflect_point}
-\mathbf{x}_{\text{P}}^{\text{min}} = \left(\frac{x_{1,\text{S}} +
-x_{1,\text{R}}}{2} + \frac{L\sin2\varphi(v_2^2 - v_1^2)}{2(v_1^2 \sin^2\varphi + v_2^2 \cos^2\varphi)}, L \right),
+\mathbf{x}_\text{P}^\text{min} = \left(\frac{x_1^S + x_1^R}{2} + \frac{L\sin2\varphi(v_2^2 - v_1^2)}{2(v_1^2 \sin^2\varphi + v_2^2 \cos^2\varphi)}, L \right),
 \end{equation}
 
-where $$x_1$$ indicates the first component of $$\mathbf{x}$$. We can make interesting observation from this equation: 
+where $$x_1$$ indicates the first component of $$\mathbf{x}$$. We can make interesting observations from this equation: 
 
 (1) The reflection point is located at the source-receiver midpoint only when the medium is isotropic ($$v_1=v_2$$) or the anisotropy symmetry axis is aligned with our coordinate system ($$\varphi = 0$$).
 
@@ -54,7 +50,7 @@ where $$x_1$$ indicates the first component of $$\mathbf{x}$$. We can make inter
 
 (3) The mirror image of the receiver, namely a virtual equivalent receiver $$\tilde{R}$$ below the reflector, is located at $$\mathbf{x}_{\tilde{\text{R}}} = 2\mathbf{x}_\text{P}$$.
 
-Upon inserting the expression for $$\mathbf{x}_\text{P}$$ in the calculation of the the first-arrival reflection traveltime between $$\mathbf{x}_\text{S}$$ and $$\mathbf{x}_\text{R}$$, we obtain
+Upon combining \eqre{eq:reflect_point} and \eqref{eq:traveltime}, the first-arrival reflection traveltime between $$\mathbf{x}_\text{S}$$ and $$\mathbf{x}_\text{R}$$, we obtain
 
 \begin{equation}
 \label{eq:ttt_total}
