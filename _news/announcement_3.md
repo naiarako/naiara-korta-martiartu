@@ -5,4 +5,4 @@ date2: 2004-01-01
 inline: true
 ---
 
-Bachelor in Physics, University of Basque Country
+Licentiate degree in Physics, University of Basque Country

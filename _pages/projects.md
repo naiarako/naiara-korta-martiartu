@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /research/
-description: A summary of current and past research projects.
+description: A summary of my current and past research projects.
 nav: true
 display_categories: [current, past]
 horizontal: false
