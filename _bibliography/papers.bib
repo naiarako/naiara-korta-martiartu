@@ -66,7 +66,7 @@ number = {2},
 pages = {1252-1264},
 year = {2019},
 doi = {10.1121/1.5122291},
-URL = {https://doi.org/10.1121/1.5122291},
+html = {https://doi.org/10.1121/1.5122291},
 bibtex_show={true},
 abbr={JASA},
 pdf={KortaMartiartu_etal_2019.pdf},
@@ -84,7 +84,7 @@ abstract={Ultrasound computed tomography (USCT) is an emerging modality to image
 	year = {2021},
 	issn = {2223-4306},	
 	doi = {10.21037/qims-20-1321},
-	url = {https://qims.amegroups.com/article/view/71291},
+	html = {https://qims.amegroups.com/article/view/71291},
 	bibtex_show={true},
 	abbr={QIMS},
 	pdf={qims-11-09-4149.pdf},
@@ -104,7 +104,7 @@ journal = {Ultrasound in Medicine \& Biology},
 year = {2021},
 issn = {0301-5629},
 doi = {https://doi.org/10.1016/j.ultrasmedbio.2021.08.013},
-url = {https://www.sciencedirect.com/science/article/pii/S0301562921003689},
+html = {https://www.sciencedirect.com/science/article/pii/S0301562921003689},
 author = {Korta Martiartu, N. and Sherin Nambiar and Iara {Nascimento Kirchner} and Catherine Paverd and Davide Cester and Thomas Frauenfelder and Lisa Ruby and Marga B. Rominger},
 pdf={KortaMartiartuetal2021_UMB.pdf},
 bibtex_show={true},
@@ -122,7 +122,7 @@ note = {Under review in IEEE},
 bibtex_show={true},
 abbr={TechRxiv},
 pdf = {Manuscript_anisotropy.pdf},
-url = "https://www.techrxiv.org/articles/preprint/Ultrasound_longitudinal-wave_anisotropy_estimation_in_muscle_tissue/15104529",
+html = "https://www.techrxiv.org/articles/preprint/Ultrasound_longitudinal-wave_anisotropy_estimation_in_muscle_tissue/15104529",
 }
 
 @article{KortaMartiartu2017,
@@ -134,7 +134,7 @@ year = {2017},
 pages = {10139--10139--15},
 abstract = {We present methods to optimize the setup of a 3D ultrasound tomography scanner for breast cancer detection. This approach provides a systematic and quantitative tool to evaluate different designs and to optimize the con- figuration with respect to predefined design parameters. We consider both, time-of-flight inversion using straight rays and time-domain waveform inversion governed by the acoustic wave equation for imaging the sound speed. In order to compare different designs, we measure their quality by extracting properties from the Hessian operator of the time-of-flight or waveform differences defined in the inverse problem, i.e., the second derivatives with respect to the sound speed. Spatial uncertainties and resolution can be related to the eigenvalues of the Hessian, which provide a good indication of the information contained in the data that is acquired with a given design. However, the complete spectrum is often prohibitively expensive to compute, thus suitable approximations have to be developed and analyzed. We use the trace of the Hessian operator as design criterion, which is equivalent to the sum of all eigenvalues and requires less computational effort. In addition, we suggest to take advantage of the spatial symmetry to extrapolate the 3D experimental design from a set of 2D configurations. In order to maximize the quality criterion, we use a genetic algorithm to explore the space of possible design configurations. Numerical results show that the proposed strategies are capable of improving an initial configuration with uniformly distributed transducers, clustering them around regions with poor illumination and improving the ray coverage of the domain of interest.},
 doi = {10.1117/12.2252514},
-URL = {https://doi.org/10.1117/12.2252514},
+html = {https://doi.org/10.1117/12.2252514},
 abbr = {SPIE},
 bibtex_show={true},
 pdf={KortaMartiartuetal2017.pdf}
@@ -149,7 +149,7 @@ pages = "1 - 45",
 year = "2017",
 issn = "0065-2687",
 author = "H. Maurer and A. Nuber and Korta Martiartu, N. and F. Reiser and C. Boehm and E. Manukyan and C. Schmelzbach and A. Fichtner",
-url = {https://www.sciencedirect.com/science/article/pii/S0065268717300018},
+html = {https://www.sciencedirect.com/science/article/pii/S0065268717300018},
 doi = {https://doi.org/10.1016/bs.agph.2017.10.001},
 abbr = {AdvGeo},
 bibtex_show={true},
@@ -167,7 +167,7 @@ abbr = {SPIE},
 bibtex_show={true},
 abstract = {Waveform inversion for ultrasound computed tomography (USCT) is a promising imaging technique for breast cancer screening. However, the improved spatial resolution and the ability to constrain multiple parameters simultaneously demand substantial computational resources for the recurring simulations of the wave equation. Hence, it is crucial to use fast and accurate methods for numerical wave propagation, on the one hand, and to keep the number of required simulations as small as possible, on the other hand. We present an efficient strategy for acoustic waveform inversion that combines (i) a spectral-element continuous Galerkin method for solving the wave equation, (ii) conforming hexahedral mesh generation to discretize the scanning device, (iii) a randomized descent method based on mini-batches to reduce the computational cost for misfit and gradient computations, and (iv) a trust-region method using a quasi-Newton approximation of the Hessian to iteratively solve the inverse problem. This approach combines ideas and state-of-the-art methods from global-scale seismology, large-scale nonlinear optimization, and machine learning. Numerical examples for a synthetic phantom demonstrate the efficiency of the discretization, the effectiveness of the mini-batch approximation and the robustness of the trust-region method to reconstruct the acoustic properties of breast tissue with partial information.},
 doi = {10.1117/12.2293299},
-URL = {https://doi.org/10.1117/12.2293299}
+html = {https://doi.org/10.1117/12.2293299}
 }
 
 @paper{Vinard2018,
@@ -181,7 +181,7 @@ abbr = {SPIE},
 bibtex_show={true},
 abstract = {Waveform inversion is a promising method for ultrasound computed tomography able to produce high-resolution images of human breast tissue. However, the computational complexity of waveform inversion remains a considerable challenge, and the costs per iteration are proportional to the number of emitting transducers. We propose a twofold strategy to accelerate the time-to-solution by identifying the optimal number and location of emitters using sequential optimal experimental design (SOED). SOED is a powerful tool to iteratively add the most informative transducer or remove redundant measurements, respectively. This approach simultaneously provides optimized transducer configurations and a cost-benefit curve that quantifies the information gain versus the computational cost.<p>  </p>First, we propose a method to identify the emitters that provide reconstructions with minimal expected uncertainties. Using a Bayesian approach, model uncertainties and resolution can be quantified with the trace of the posterior covariance. By linearizing the wave equation, we can compute the posterior covariance using the inverse of the Gauss-Newton approximation of the Hessian. Furthermore, this posterior is independent of the breast model and the experimental data, thus enabling pre-acquisition experimental optimization. Then, for the post-acquisition inversion, we present an approach to select a subsample of sources that accurately approximates the full gradient direction in each iteration. We control the convergence of the angular differences between consecutive gradient directions by randomly adding new emitters into the subsample.<p>  </p>We present synthetic studies in 2D and 3D that consider a ring-shaped and a semi-ellipsoidal scanning device, respectively. Numerical results suggest that the provided methods have the potential to identify redundancies from the corresponding cost-benefit curves. Furthermore, the gradient direction rapidly converges to the direction of the full gradient, which appears to be independent of the model and the emitter locations.},
 doi = {10.1117/12.2293600},
-URL = {https://doi.org/10.1117/12.2293600}
+html = {https://doi.org/10.1117/12.2293600}
 }
 
 @paper{Korta2021SPIE,
@@ -195,7 +195,7 @@ bibtex_show={true},
 pdf={AbstractSPIE2020_NKM.pdf},
 abstract = {This work presents a method to estimate average anisotropy in speed of sound of soft tissue using pulse-echo ultrasound. In particular, our setup includes a passive acoustic reflector located opposite to the ultrasound probe, with tissue in between. This enables the generation of strong reflections from which we measure their traveltimes. We use ray-based approaches to derive the forward problem that relates observed traveltimes with speed of sound anisotropy parameters. The accuracy of the forward modelling is verified using numerical wave propagation simulations. We finally show the occurrence of anisotropy in muscle tissue using in-vivo data.},
 doi = {10.1117/12.2580952},
-URL = {https://doi.org/10.1117/12.2580952}
+html = {https://doi.org/10.1117/12.2580952}
 }
 
 @article{Kormann,
@@ -207,7 +207,7 @@ number = {C11},
 year = {2011},
 abbr = {JGR:Oceans},
 bibtex_show={true},
-url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2011JC007216},
+html = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2011JC007216},
 abstract = {Recent works show that multichannel seismic (MCS) systems are able to provide detailed information on the oceans' fine structure. The aim of this paper is to analyze whether 1-D full waveform inversion algorithms are suitable to recover the extremely weak acoustic impedance contrasts associated to the oceans' fine structure, as well as their potential to image meso-scale objects such as meddies. We limited our analysis to synthetic, noise-free data, in order to identify some methodological issues related to this approach under idealistic conditions (e.g., 1-D wave propagation, noise-free data, known source wavelet). We first discuss the influence of the starting model in the context of the multi-scale strategy that we have implemented. Then we show that it is possible to retrieve not only sound speed but also salinity and temperature contrasts within reasonable bounds from the seismic data using Neural Network relationships trained with regional oceanographic data sets. Potentially, the vertical resolution of the obtained models, which depends on the maximum frequency inverted, is of the order of 5–10 m, whereas the root mean square error of the inverted properties is shown to be ∼0.5 m/s for sound speed, 0.1°C for temperature, and 0.06 for salinity. To conclude this study, we have inverted synthetic data simulated along an oceanographic transect acquired during the EU-funded Geophysical Oceanography (GO) project. The results demonstrate the applicability of the method for synthetic data, as well as its potential to define oceanographic features along 2-D transects at full ocean depth with excellent lateral resolution.}
 }
 
@@ -216,7 +216,7 @@ author = {Jaeger, Michael and St{\"a}hli, Patrick and Korta Martiartu, Naiara an
 title = "{Pulse-echo speed-of-sound imaging using convex probes}",
 year = "2022",
 doi = "10.1088/1361-6560/ac96c6",
-url={http://iopscience.iop.org/article/10.1088/1361-6560/ac96c6},
+html={http://iopscience.iop.org/article/10.1088/1361-6560/ac96c6},
 journal={Physics in Medicine \& Biology},
 bibtex_show={true},
 abbr={PMB},
@@ -236,7 +236,7 @@ abstract={Computed ultrasound tomography in echo mode (CUTE) is a new ultrasound
   volume={69},
 
   number={8},
-
+  html={https://ieeexplore.ieee.org/document/9817393},
   pages={2499-2511},
   selected={true},
   bibtex_show={true},
