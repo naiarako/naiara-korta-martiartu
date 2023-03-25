@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /media/
-title: media
-description: Participation in media  
+title: Outreach and communication
+description: Outreach activities and participation in media  
 nav: true
 ---
 
