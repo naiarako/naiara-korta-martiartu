@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /outreach/
-title: Outreach
+title: outreach
 description: Outreach activities and participation in media  
 nav: true
 ---
