@@ -50,7 +50,7 @@ month={},
 abstract={Ultrasound computed tomography (USCT) has great potential for 3-D quantitative imaging of acoustic breast tissue properties. Typical devices include high-frequency transducers, which makes tomography techniques based on numerical wave propagation simulations computationally challenging, especially in 3-D. Therefore, despite the finite-frequency nature of ultrasonic waves, ray-theoretical approaches to transmission tomography are still widely used. This article introduces a finite-frequency traveltime tomography to medical ultrasound. In addition to being computationally tractable for 3-D imaging at high frequencies, the method has two main advantages: 1) it correctly accounts for the frequency dependence and volumetric sensitivity of traveltime measurements, which are related to off-ray-path scattering and diffraction. 2) It naturally enables out-of-plane imaging and the construction of 3-D images from 2-D slice-by-slice acquisition systems. Our method rests on the availability of calibration data in water, used to linearize the forward problem and to provide analytical expressions of cross correlation traveltime sensitivity. As a consequence of the finite-frequency content, sensitivity is distributed in multiple Fresnel volumes, thereby providing out-of-plane sensitivity. To improve computational efficiency, we develop a memory-efficient implementation by encoding the Jacobian operator with a 1-D parameterization, which allows us to extend the method to large-scale domains. We validate our tomographic approach using laboratory measurements collected with a 2-D setup of transducers and using a cylindrically symmetric phantom. We then demonstrate its applicability for 3-D reconstructions by simulating a slice-by-slice acquisition system using the same data set.},
 selected={true},
 bibtex_show={true},
-abbr={IEEE},
+abbr={IEEE-TUFFC},
 html = {https://ieeexplore.ieee.org/abstract/document/8986678},
 pdf = {Manuscript_FF_IEEE.pdf}
 }
@@ -111,34 +111,7 @@ bibtex_show={true},
 abbr={UMB},
 abstract={There is a growing interest in quantifying shear-wave dispersion (SWD) with ultrasound shear-wave elastography (SWE). Recent studies suggest that SWD complements shear-wave speed (SWS) in diffuse liver disease diagnosis. To accurately interpret these metrics in clinical practice, we analyzed the impact of operator-dependent acquisition parameters on SWD and SWS measurements. Considered parameters were the acquisition depth, lateral position and size of the region of interest (ROI), as well as the size of the SWE acquisition box. Measurements were performed using the Canon Aplio i800 system (Canon Medical Systems, Otawara, Tochigi, Japan) and four homogeneous elasticity phantoms with certified stiffness values ranging from 3.7 to 44 kPa. In general, SWD exhibited two to three times greater variability than SWS. The acquisition depth was the main variance-contributing factor for both SWS and SWD, which decayed significantly with depth. The lateral ROI position contributed as much as the acquisition depth to the total variance in SWD. Locations close to the initial shear-wave excitation pulse were more robust to biases because of inaccurate probe?phantom coupling. The size of the ROI and acquisition box did not introduce significant variations. These results suggest that future guidelines on multiparametric elastography should account for the depth- and lateral-dependent variability of measurements.}}
 
-@article{Korta_Martiartu2021_anisotropy,
-author = {Korta Martiartu, N. and Saul\.{e} Simut\.{e} and Thomas Frauenfelder and Marga B. Rominger},
-title = "{Ultrasound longitudinal-wave anisotropy estimation in muscle tissue}",
-year = "2021",
-month = "8",
-doi = "10.36227/techrxiv.15104529.v2",
-journal={TechRxiv},
-note = {Under review in IEEE},
-bibtex_show={true},
-abbr={TechRxiv},
-pdf = {Manuscript_anisotropy.pdf},
-html = "https://www.techrxiv.org/articles/preprint/Ultrasound_longitudinal-wave_anisotropy_estimation_in_muscle_tissue/15104529",
-}
 
-@article{KortaMartiartu2017,
-author = {Korta Martiartu, N. and  Boehm, Christian and Vinard, Nicolas and {Jovanovi{\'c} Balic}, Ivana  and Fichtner, Andreas},
-title = {Optimal experimental design to position transducers in ultrasound breast imaging},
-journal = {Proc.SPIE, Medical Imaging 2017: Ultrasonic Imaging and Tomography},
-volume = {10139},
-year = {2017},
-pages = {10139--10139--15},
-abstract = {We present methods to optimize the setup of a 3D ultrasound tomography scanner for breast cancer detection. This approach provides a systematic and quantitative tool to evaluate different designs and to optimize the con- figuration with respect to predefined design parameters. We consider both, time-of-flight inversion using straight rays and time-domain waveform inversion governed by the acoustic wave equation for imaging the sound speed. In order to compare different designs, we measure their quality by extracting properties from the Hessian operator of the time-of-flight or waveform differences defined in the inverse problem, i.e., the second derivatives with respect to the sound speed. Spatial uncertainties and resolution can be related to the eigenvalues of the Hessian, which provide a good indication of the information contained in the data that is acquired with a given design. However, the complete spectrum is often prohibitively expensive to compute, thus suitable approximations have to be developed and analyzed. We use the trace of the Hessian operator as design criterion, which is equivalent to the sum of all eigenvalues and requires less computational effort. In addition, we suggest to take advantage of the spatial symmetry to extrapolate the 3D experimental design from a set of 2D configurations. In order to maximize the quality criterion, we use a genetic algorithm to explore the space of possible design configurations. Numerical results show that the proposed strategies are capable of improving an initial configuration with uniformly distributed transducers, clustering them around regions with poor illumination and improving the ray coverage of the domain of interest.},
-doi = {10.1117/12.2252514},
-html = {https://doi.org/10.1117/12.2252514},
-abbr = {SPIE},
-bibtex_show={true},
-pdf={KortaMartiartuetal2017.pdf}
-}
 
 @article{Maurer_2017,
 title = "Optimized Experimental Design in the Context of Seismic Full Waveform Inversion and Seismic Waveform Imaging",
@@ -168,34 +141,6 @@ bibtex_show={true},
 abstract = {Waveform inversion for ultrasound computed tomography (USCT) is a promising imaging technique for breast cancer screening. However, the improved spatial resolution and the ability to constrain multiple parameters simultaneously demand substantial computational resources for the recurring simulations of the wave equation. Hence, it is crucial to use fast and accurate methods for numerical wave propagation, on the one hand, and to keep the number of required simulations as small as possible, on the other hand. We present an efficient strategy for acoustic waveform inversion that combines (i) a spectral-element continuous Galerkin method for solving the wave equation, (ii) conforming hexahedral mesh generation to discretize the scanning device, (iii) a randomized descent method based on mini-batches to reduce the computational cost for misfit and gradient computations, and (iv) a trust-region method using a quasi-Newton approximation of the Hessian to iteratively solve the inverse problem. This approach combines ideas and state-of-the-art methods from global-scale seismology, large-scale nonlinear optimization, and machine learning. Numerical examples for a synthetic phantom demonstrate the efficiency of the discretization, the effectiveness of the mini-batch approximation and the robustness of the trust-region method to reconstruct the acoustic properties of breast tissue with partial information.},
 doi = {10.1117/12.2293299},
 html = {https://doi.org/10.1117/12.2293299}
-}
-
-@paper{Vinard2018,
-author = { Vinard, Nicolas and Korta Martiartu, N. and  Boehm, Christian and {Jovanovi{\'c} Balic}, Ivana  and Fichtner, Andreas},
-title = {Optimized transducer configuration for ultrasound waveform tomography in breast cancer detection},
-booktitle = {Proc. SPIE, Medical Imaging 2018: Ultrasonic Imaging and Tomography},
-volume = {10580},
-pages = {10580--10580--15},
-year = {2018},
-abbr = {SPIE},
-bibtex_show={true},
-abstract = {Waveform inversion is a promising method for ultrasound computed tomography able to produce high-resolution images of human breast tissue. However, the computational complexity of waveform inversion remains a considerable challenge, and the costs per iteration are proportional to the number of emitting transducers. We propose a twofold strategy to accelerate the time-to-solution by identifying the optimal number and location of emitters using sequential optimal experimental design (SOED). SOED is a powerful tool to iteratively add the most informative transducer or remove redundant measurements, respectively. This approach simultaneously provides optimized transducer configurations and a cost-benefit curve that quantifies the information gain versus the computational cost.<p>  </p>First, we propose a method to identify the emitters that provide reconstructions with minimal expected uncertainties. Using a Bayesian approach, model uncertainties and resolution can be quantified with the trace of the posterior covariance. By linearizing the wave equation, we can compute the posterior covariance using the inverse of the Gauss-Newton approximation of the Hessian. Furthermore, this posterior is independent of the breast model and the experimental data, thus enabling pre-acquisition experimental optimization. Then, for the post-acquisition inversion, we present an approach to select a subsample of sources that accurately approximates the full gradient direction in each iteration. We control the convergence of the angular differences between consecutive gradient directions by randomly adding new emitters into the subsample.<p>  </p>We present synthetic studies in 2D and 3D that consider a ring-shaped and a semi-ellipsoidal scanning device, respectively. Numerical results suggest that the provided methods have the potential to identify redundancies from the corresponding cost-benefit curves. Furthermore, the gradient direction rapidly converges to the direction of the full gradient, which appears to be independent of the model and the emitter locations.},
-doi = {10.1117/12.2293600},
-html = {https://doi.org/10.1117/12.2293600}
-}
-
-@paper{Korta2021SPIE,
-author = {Korta Martiartu, N. and Saul\.{e} Simut\.{e} and Christian Boehm and  Lisa Ruby and Thomas Frauenfelder and Andreas Fichtner and Marga B. Rominger and Sergio J Sanabria},
-title = {{Speed-of-sound anisotropy estimation using reflector-based pulse-echo ultrasound}},
-volume = {11602},
-booktitle = {Proc. SPIE, Medical Imaging 2021: Ultrasonic Imaging and Tomography},
-year = {2021},
-abbr = {SPIE},
-bibtex_show={true},
-pdf={AbstractSPIE2020_NKM.pdf},
-abstract = {This work presents a method to estimate average anisotropy in speed of sound of soft tissue using pulse-echo ultrasound. In particular, our setup includes a passive acoustic reflector located opposite to the ultrasound probe, with tissue in between. This enables the generation of strong reflections from which we measure their traveltimes. We use ray-based approaches to derive the forward problem that relates observed traveltimes with speed of sound anisotropy parameters. The accuracy of the forward modelling is verified using numerical wave propagation simulations. We finally show the occurrence of anisotropy in muscle tissue using in-vivo data.},
-doi = {10.1117/12.2580952},
-html = {https://doi.org/10.1117/12.2580952}
 }
 
 @article{Kormann,
